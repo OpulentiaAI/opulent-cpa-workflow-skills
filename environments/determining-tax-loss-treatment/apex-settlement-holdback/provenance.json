@@ -1,0 +1,24 @@
+{
+  "skill": "determining-tax-loss-treatment",
+  "case_id": "apex-settlement-holdback",
+  "fit": "settlement and recovery process calibration",
+  "import_mode": "apex-exact",
+  "source_repo": "apex-accounting",
+  "source_remote": "https://huggingface.co/datasets/mercor/apex-accounting",
+  "source_commit": "bf5e8c99117b7ee763d79ad2c64563ac844d77d2",
+  "source_task": "tasks/world_9_task_04.json",
+  "upstream_id": "task_baa139877a4d4fbfa601df50610262d5",
+  "dataset": "Mercor APEX-Accounting Dev Set",
+  "source_files": {
+    "environment/source_docs/workpaper_contingency_case_status_2024.xlsx": "5ace92c45963ca75dee529f057d37ab061614f5c94987fd6b22d5e54e064c918",
+    "environment/source_docs/workpaper_client_cost_advance_ledger_2024.xlsx": "5cc6fda2a9ef7e0817e7b0683f54e298edf9b53dec57c12085dd8067c1674de8",
+    "environment/source_docs/qbo_journal_entry_register_2024.xlsx": "d3c73640eb0a41c6d65f169abcc112c16caa29459cdee954c2782f080fbeed04",
+    "environment/source_docs/workpaper_whitfield_settlement_summary.xlsx": "2dc7e74c8b6016a20829dc082c8d4265a039b751e17013ef3501385ac698cb83",
+    "environment/source_docs/Whitfield_PostSettlement_Holdback_Memo.pdf": "2af2212b031250e6ddb65b84cff62f70060f919343dfe848c8f2cf30639605cf"
+  },
+  "hidden_from_agent": [
+    "tests/rubric.json",
+    "tests/grader_spec.json",
+    "solution/reference_answer.md"
+  ]
+}

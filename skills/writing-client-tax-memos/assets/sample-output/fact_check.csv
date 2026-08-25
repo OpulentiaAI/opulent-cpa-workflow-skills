@@ -1,0 +1,7 @@
+fact_id,claim,status,source_url,workpaper_ref
+F001,"Vehicle tax basis is $65,000.",approved,https://www.irs.gov/publications/p946,asset facts
+F002,"Business miles are 6,000 and total miles are 20,000.",approved,https://www.irs.gov/publications/p463,mileage log
+F003,Qualified business use is 30 percent.,approved,https://www.irs.gov/publications/p946,business-use calculation
+F004,The predominant-use test requires more than 50 percent qualified business use.,approved,https://www.irs.gov/publications/p946,eligibility analysis
+F005,"The fixture current-year deduction is $1,950.",approved,https://www.irs.gov/publications/p946,approved fixture schedule
+F006,"The fixture counterfactual at 100 percent use is $6,500 under the same sample method.",approved,https://www.irs.gov/publications/p946,counterfactual

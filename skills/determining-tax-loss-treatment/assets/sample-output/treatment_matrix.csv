@@ -1,0 +1,4 @@
+candidate,status,reason,missing_fact,source_url
+Business theft loss,review,Business account and unreimbursed loss facts are present,Theft classification under applicable state law,https://www.irs.gov/instructions/i4684
+Personal casualty or theft,rejected,The supplied account is identified as a business operating account,,https://www.irs.gov/publications/p547
+Profit-motive scam theft,review,Profit motive is stated but the event classification remains unresolved,Theft classification under applicable state law,https://www.irs.gov/instructions/i4684

@@ -1,0 +1,14 @@
+{
+  "tax_year": 2024,
+  "event_type": "post-settlement proceeds clawback / competing-claimant holdback on contingency fee disbursement",
+  "account_use": "law firm operating account - contingency fee revenue (business, income-producing)",
+  "date_discovered": "2025-01-09",
+  "date_event_origin": "2024-11-late (competing claim filed); 2024-12-15 (excess disbursement)",
+  "gross_loss": 29700.00,
+  "reimbursements_received": 0.00,
+  "other_recovery_prospect": 0.00,
+  "bank_claim_status": "settlement administrator notice dated 2025-01-09; return obligation confirmed by outside counsel as legally sound",
+  "police_report": "not filed - civil clawback, not criminal conduct",
+  "state_law_theft_classification": "not_applicable",
+  "profit_motive": "business operations - contingency fee representation"
+}

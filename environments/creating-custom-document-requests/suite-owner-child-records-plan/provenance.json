@@ -1,0 +1,22 @@
+{
+  "skill": "creating-custom-document-requests",
+  "case_id": "suite-owner-child-records-plan",
+  "fit": "documentation and evidence process calibration",
+  "import_mode": "suite-text-mirror",
+  "source_repo": "knowledge-work-demo-suite",
+  "source_remote": "https://github.com/OpulentiaAI/knowledge-work-demo-suite.git",
+  "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+  "source_task": "tasks/044-tax-hiring-owner-child",
+  "upstream_id": "original/044-tax-hiring-owner-child",
+  "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+  "source_files": {
+    "environment/source_docs/calculation_inputs.csv": "84151d95813f049b5f550162d2d924d46563b37f9ae0ff80fcf317a68e52d868",
+    "environment/source_docs/client_facts.md": "0469c215230abf3d75f0124012ca8ea01b6ac8b72a42edc49beb9d1e633bc652",
+    "environment/source_docs/official_guidance.md": "5443315ad82cb7aebcf9ffc9315dd745c63ecf08876c3d7f9daecbcf96b9dce2"
+  },
+  "hidden_from_agent": [
+    "tests/rubric.json",
+    "tests/grader_spec.json",
+    "solution/reference_answer.md"
+  ]
+}

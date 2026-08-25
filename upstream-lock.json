@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "captured_at": "2026-08-24",
+  "repositories": {
+    "apex-accounting": {
+      "remote": "https://huggingface.co/datasets/mercor/apex-accounting",
+      "commit": "bf5e8c99117b7ee763d79ad2c64563ac844d77d2",
+      "checkout": "full",
+      "license": "CC-BY-4.0"
+    },
+    "knowledge-work-demo-suite": {
+      "remote": "https://github.com/OpulentiaAI/knowledge-work-demo-suite.git",
+      "commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+      "checkout": "full",
+      "license": "MIT with upstream terms in THIRD_PARTY_NOTICES.md"
+    },
+    "letta-code": {
+      "remote": "https://github.com/letta-ai/letta-code.git",
+      "commit": "0521b230fe0f4fbed00ceab40c66a2ae55d3be7e",
+      "checkout": "sparse: src/skills/builtin/creating-skills"
+    },
+    "mattpocock-skills": {
+      "remote": "https://github.com/mattpocock/skills.git",
+      "commit": "6654f6b60cd9d5be8b54c6fafe44346dabeb3b76",
+      "checkout": "sparse: skills/productivity/writing-for-agents"
+    },
+    "harbor": {
+      "remote": "https://github.com/harbor-framework/harbor.git",
+      "commit": "72f7dd0134162c5b7229f6a31286e05a49c0f8a4",
+      "checkout": "sparse: docs/content/docs/tasks, datasets, and run-jobs",
+      "license": "Apache-2.0"
+    },
+    "osworld": {
+      "remote": "https://github.com/xlang-ai/OSWorld.git",
+      "commit": "84aee655c2afb6b77ecf39884432615ba345c031",
+      "checkout": "sparse: LibreOffice Calc examples and evaluators"
+    }
+  }
+}
+

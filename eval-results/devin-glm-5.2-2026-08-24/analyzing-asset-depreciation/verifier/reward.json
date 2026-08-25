@@ -1,0 +1,100 @@
+{
+  "reward": 1.0,
+  "checks_passed": 12,
+  "checks_total": 12,
+  "output_file": "/tmp/opulent-devin-glm52.nZuMql/analyzing-asset-depreciation/output/answer.md",
+  "checks": [
+    {
+      "name": "minimum_content",
+      "passed": true
+    },
+    {
+      "name": "required_group_1",
+      "passed": true,
+      "alternatives": [
+        "$288",
+        "288"
+      ]
+    },
+    {
+      "name": "required_group_2",
+      "passed": true,
+      "alternatives": [
+        "$363",
+        "363"
+      ]
+    },
+    {
+      "name": "required_group_3",
+      "passed": true,
+      "alternatives": [
+        "$385",
+        "385"
+      ]
+    },
+    {
+      "name": "required_group_4",
+      "passed": true,
+      "alternatives": [
+        "$553",
+        "553"
+      ]
+    },
+    {
+      "name": "required_group_5",
+      "passed": true,
+      "alternatives": [
+        "$754",
+        "754"
+      ]
+    },
+    {
+      "name": "required_group_6",
+      "passed": true,
+      "alternatives": [
+        "$5,390",
+        "5390"
+      ]
+    },
+    {
+      "name": "required_group_7",
+      "passed": true,
+      "alternatives": [
+        "14 days",
+        "14-day",
+        "14 \u00d7"
+      ]
+    },
+    {
+      "name": "required_group_8",
+      "passed": true,
+      "alternatives": [
+        "280A(g)"
+      ]
+    },
+    {
+      "name": "required_group_9",
+      "passed": true,
+      "alternatives": [
+        "section 162",
+        "Section 162"
+      ]
+    },
+    {
+      "name": "required_group_10",
+      "passed": true,
+      "alternatives": [
+        "related-party",
+        "related party"
+      ]
+    },
+    {
+      "name": "required_group_11",
+      "passed": true,
+      "alternatives": [
+        "event log",
+        "Event Log"
+      ]
+    }
+  ]
+}

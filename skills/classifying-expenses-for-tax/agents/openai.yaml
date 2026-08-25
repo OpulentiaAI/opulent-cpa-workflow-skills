@@ -1,0 +1,3 @@
+interface:
+  display_name: "Classifying Expenses For Tax"
+  short_description: "Map transactions to tax categories and exceptions"

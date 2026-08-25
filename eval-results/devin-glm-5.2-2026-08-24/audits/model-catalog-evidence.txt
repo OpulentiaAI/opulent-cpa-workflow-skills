@@ -1,0 +1,9 @@
+Command: devin models list
+Captured: 2026-08-24
+
+GLM-5.2 (glm-5.2)
+  glm-5-2        GLM-5.2 High  [200K context, Free]
+  glm-5-2-max    GLM-5.2 Max   [200K context, paid token pricing]
+  glm-5-2-1m     GLM-5.2 High 1M [1M context, paid token pricing]
+
+Only the exact free model identifier glm-5-2 was accepted for this evaluation.

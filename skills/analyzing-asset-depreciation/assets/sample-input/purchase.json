@@ -1,0 +1,13 @@
+{
+  "tax_year": 2025,
+  "asset_type": "passenger automobile",
+  "placed_in_service": "2025-02-01",
+  "basis_items": [
+    {"label": "vehicle price", "amount": 60000.00, "included": true, "source": "purchase agreement page 1"},
+    {"label": "sales tax", "amount": 4000.00, "included": true, "source": "purchase agreement page 1"},
+    {"label": "dealer preparation fee", "amount": 1000.00, "included": true, "source": "purchase agreement page 1"},
+    {"label": "service contract", "amount": 2000.00, "included": false, "source": "service contract page 1"}
+  ],
+  "fixture_rate": 0.10,
+  "fixture_rate_source": "synthetic CPA assumption for arithmetic testing only"
+}

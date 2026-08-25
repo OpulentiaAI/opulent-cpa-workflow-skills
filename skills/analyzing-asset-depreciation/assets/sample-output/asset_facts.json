@@ -1,0 +1,8 @@
+{
+  "tax_year": 2025,
+  "asset_type": "passenger automobile",
+  "placed_in_service": "2025-02-01",
+  "included_basis": 65000.00,
+  "excluded_items": [{"label": "service contract", "amount": 2000.00, "status": "CPA review"}],
+  "source_status": "synthetic fixture"
+}

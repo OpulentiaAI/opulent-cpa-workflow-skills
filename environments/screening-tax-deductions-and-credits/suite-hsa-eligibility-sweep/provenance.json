@@ -1,0 +1,22 @@
+{
+  "skill": "screening-tax-deductions-and-credits",
+  "case_id": "suite-hsa-eligibility-sweep",
+  "fit": "direct tax eligibility and benefit calibration",
+  "import_mode": "suite-text-mirror",
+  "source_repo": "knowledge-work-demo-suite",
+  "source_remote": "https://github.com/OpulentiaAI/knowledge-work-demo-suite.git",
+  "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+  "source_task": "tasks/047-tax-hsa-optimization",
+  "upstream_id": "original/047-tax-hsa-optimization",
+  "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+  "source_files": {
+    "environment/source_docs/calculation_inputs.csv": "54c05ba8f21fd6248a048d2b19709f25901247cf3c05f9bc9c83b0f1e7d00896",
+    "environment/source_docs/client_facts.md": "0f7cb9bd09323b185ea8123a14e194e378b8d95dd536734252072a44447f0f34",
+    "environment/source_docs/official_guidance.md": "bb80d0f315fdd3f11938cae046a8b8e6ed64df2e48252657d414be21cd5ed836"
+  },
+  "hidden_from_agent": [
+    "tests/rubric.json",
+    "tests/grader_spec.json",
+    "solution/reference_answer.md"
+  ]
+}

@@ -1,0 +1,62 @@
+I'll start by invoking the matching skill and exploring the source documents in parallel.Let me read all source documents and explore the skill's references and the answer contract suite.Let me read the skill's reference files and sample assets to understand the expected format and answer contract.Let me look at the sample files, the validator script, and search for the solo 401k suite mentioned in the skill.Let me read the validator script to understand the output contract requirements.Now I understand the structure. Let me verify the calculation environment and check for openpyxl, then build everything.Let me recompute precisely to confirm the exact figures (I made an arithmetic slip earlier).The calculation is confirmed. Final modeled 2026 contribution = **$48,085.57** (employee regular $14,500 + catch-up $8,000 + employer $25,585.57). Let me set up my task list and build the deliverables.Now let me build the workbook with a Python script that preserves formulas in calculation cells.Let me clean up the messy row-6 formula definition before running.Workbook written. Let me verify the formulas are preserved and compute correctly by reading them back and recalculating with LibreOffice if available.Formulas are preserved correctly. Let me recalculate with LibreOffice headless to confirm the computed values match my hand calculation.All formulas compute correctly: total = $48,085.57, components reconcile. Let me clean up the temp dir and mark this complete.Now the execution memo. I'll follow the skill's memo shape (result first, plain words, sections) plus the execution calendar and Form 5500-EZ monitoring required by the assignment.Now the complete analysis in `output/answer.md`.Final verification of all deliverables.All three deliverables are complete and verified.
+
+## Summary
+
+**Modeled 2026 Solo 401(k) contribution for Jordan (Northstar Design): $48,085.57**
+
+| Component | Amount |
+|---|---|
+| Employee regular elective deferral | $14,500.00 |
+| Employee age-50 catch-up | $8,000.00 |
+| Employer (profit-sharing) contribution | $25,585.57 |
+| **Total** | **$48,085.57** |
+
+**Key calculation logic:**
+- Net earnings subject to SE tax: $180,000 × 92.35% = $166,230.00
+- Modeled SE tax: $166,230 × 15.3% = $25,433.19; half = $12,716.60
+- Employer contribution uses the self-employed circular method: 20% × ($166,230 − $12,716.595) ÷ 1.20 = $25,585.57
+- The $10,000 outside-plan deferral reduces only the regular 402(g) room ($24,500 → $14,500); the $8,000 catch-up is unaffected because the outside employer made no catch-up
+- Annual additions excluding catch-up ($40,085.57) are under the $72,000 IRC 415(c) limit, so nothing is capped
+
+**Deliverables produced:**
+- `solo_401k_execution_memo.md` — client memo (result-first, plain words) with rule, calculation, open items, planning note, execution calendar, and Form 5500-EZ monitoring
+- `solo_401k_contribution_workbook.xlsx` — 4 sheets (Inputs, Calculation, Execution Calendar, Sources & Assumptions); all 12 calculation cells are live formulas, recalculated and reconciled to the hand calculation
+- `output/answer.md` — complete analysis with calculations, conclusions, evidence gaps, and implementation controls
+
+**Treated as a planning estimate, not a filed result.** Open items flagged for adviser confirmation: plan-document terms/adoption deadline, outside-deferral detail, state-law/controlled-group/other-plan-balance facts, the simplified SE tax model, 2026 limit refresh, deposit timing, and Form 5500-EZ threshold/due date. No facts, guarantees, or compliance steps were invented.
+You're right — I made a substantive model error. I applied the self-employed circular reduction (÷1.20) on top of using net earnings ($166,230) as the base, which double-counted the reduction. The supplied deterministic model uses **Schedule C profit ($180,000) minus half SE tax** as the adjusted plan compensation, with **no division by 1.20**.
+
+Let me verify the corrected numbers, then fix all three files.Confirmed. Corrected total = **$55,956.68** (employer $33,456.68 + regular $14,500 + catch-up $8,000); 415 amount excl. catch-up = $47,956.68. Now let me rebuild the workbook with corrected formulas and the required sheet names.Now let me build and recalculate with LibreOffice.The catch-up is computing to 0 — the eligibility flag isn't resolving. Let me check the Inputs sheet.Found it — the eligibility flag is at row 14 (not 13), because there are 10 inputs (rows 4–13), with the $250k threshold at row 13. The catch-up formula wrongly references `Inputs!B13` (the threshold). Let me fix the catch-up to reference the age directly for robustness.Workbook reconciles perfectly. Now let me clean up and update the two markdown files.Now let me rewrite the execution memo with the corrected model.Memo updated. Now the answer.md.Now final verification of all three deliverables.The one "division by 1.20" match in answer.md is the intentional explanatory phrase ("There is no division by 1.20"), not a stale calculation. Let me confirm no stale numeric values remain.All "1.20" mentions are either the explanatory phrase ("no division by 1.20") or dates (12/31/2026, 10/15/2027). No stale numeric values. Everything is verified.## Completion report
+
+The substantive model error is corrected in all three deliverables. The bug was a double application of the self-employed reduction: I used net earnings ($166,230) as the employer base *and* divided by 1.20. The supplied deterministic model uses **Schedule C profit minus half SE tax** as adjusted plan compensation, with **no division by 1.20**.
+
+### Corrected calculation
+
+| Step | Value |
+|---|---|
+| Net earnings subject to SE tax | $166,230.00 |
+| Modeled SE tax | $25,433.19 |
+| Deductible half of SE tax | $12,716.60 |
+| Adjusted plan compensation ($180,000 − $12,716.60) | $167,283.40 |
+| Employer contribution (20% × $167,283.40, no ÷1.20) | $33,456.68 |
+| Employee regular deferral ($24,500 − $10,000) | $14,500.00 |
+| Employee age-50 catch-up | $8,000.00 |
+| **Total proposed 2026 contribution** | **$55,956.68** |
+| Section 415 amount excluding catch-up | $47,956.68 (within $72,000) |
+
+### Changes made
+
+- **`solo_401k_contribution_workbook.xlsx`** — rebuilt with corrected formulas:
+  - Sheet 4 (adjusted plan compensation) now `=Inputs!B4-B6` (profit − half SE), not net earnings − half SE
+  - Sheet 5 (employer contribution) now `=Inputs!B10*B7` (rate × adjusted plan comp), with no `/(1+rate)`
+  - Fixed catch-up formula to reference the age cell directly (`Inputs!B12>=50`) after finding the eligibility flag had shifted to row 14
+  - Sheets renamed to **Inputs, Contribution Model, Deadlines, Sources & Assumptions**
+  - Recalculated with LibreOffice; all 12 calculation cells are live formulas and reconcile: employer + regular + catch-up = total ($55,956.68); regular + employer = 415 amount ($47,956.68) ≤ $72,000
+- **`solo_401k_execution_memo.md`** — updated all values, steps, component table, and added an open item flagging that the supplied non-circular method differs from the Pub 560 circular worksheet
+- **`output/answer.md`** — updated all values, steps, conclusions, and workbook-controls reconciliation statement
+
+### Verification
+
+- No stale values ($48,085 / $25,585 / $40,085) remain in either markdown file
+- Workbook formulas preserved (not hardcoded); LibreOffice recalculation confirms every component
+- Reconciliation passes: components sum to total; 415 amount within limit

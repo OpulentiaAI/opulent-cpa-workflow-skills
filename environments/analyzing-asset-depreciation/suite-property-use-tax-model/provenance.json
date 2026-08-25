@@ -1,0 +1,22 @@
+{
+  "skill": "analyzing-asset-depreciation",
+  "case_id": "suite-property-use-tax-model",
+  "fit": "tax method and property use process calibration",
+  "import_mode": "suite-text-mirror",
+  "source_repo": "knowledge-work-demo-suite",
+  "source_remote": "https://github.com/OpulentiaAI/knowledge-work-demo-suite.git",
+  "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+  "source_task": "tasks/046-tax-augusta-rule-execution",
+  "upstream_id": "original/046-tax-augusta-rule-execution",
+  "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+  "source_files": {
+    "environment/source_docs/calculation_inputs.csv": "6bebbf252a639379f403d0edd5df68f83fe35e711adae09f0d9f6f642b7503c8",
+    "environment/source_docs/client_facts.md": "2ce8fb8cf2a3ecf33b2122ed01af8747c3116596a84da1dc716315eb35bd676e",
+    "environment/source_docs/official_guidance.md": "9c644a86be86170c98b9aa4841b4e77916b927907ffbe9b4935e020cb6362f28"
+  },
+  "hidden_from_agent": [
+    "tests/rubric.json",
+    "tests/grader_spec.json",
+    "solution/reference_answer.md"
+  ]
+}

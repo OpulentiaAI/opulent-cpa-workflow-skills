@@ -1,0 +1,5 @@
+income_id,state,service_days,total_service_days,method_status
+I001,IL,150,200,CPA-approved synthetic fixture
+I001,AZ,50,200,CPA-approved synthetic fixture
+I002,IL,200,200,W-2 state wage record
+I003,IL,180,180,Client service log

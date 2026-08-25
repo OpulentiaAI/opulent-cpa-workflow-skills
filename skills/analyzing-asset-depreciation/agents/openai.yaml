@@ -1,0 +1,3 @@
+interface:
+  display_name: "Analyzing Asset Depreciation"
+  short_description: "Test depreciation eligibility and show the math"

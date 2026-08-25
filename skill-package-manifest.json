@@ -1,0 +1,76 @@
+{
+  "package": "opulent-cpa-workflow-skills",
+  "created": "2026-08-24",
+  "source_attachment": {
+    "file": "opulent-cpa-workflow-explainer.md",
+    "sha256": "6e3d5d4f2a8aef7f3b911504680c9aa5ac8bafee1a3dd790d04c407f50bf2294"
+  },
+  "construction_baselines": [
+    "https://github.com/letta-ai/letta-code/tree/main/src/skills/builtin/creating-skills",
+    "https://github.com/mattpocock/skills/tree/main/skills/productivity/writing-for-agents",
+    "https://www.harborframework.com/docs/run-jobs/run-evals",
+    "https://huggingface.co/datasets/mercor/apex-accounting",
+    "https://osworld-v1.xlang.ai/",
+    "https://github.com/OpulentiaAI/knowledge-work-demo-suite"
+  ],
+  "upstream_lock": "upstream-lock.json",
+  "environment_map": "environment-map.json",
+  "environments": {
+    "count": 8,
+    "format": "Harbor task directories",
+    "manifest": "environments/manifest.json",
+    "distribution": "one .harbor.zip archive per skill",
+    "blind_split": "instruction and environment visible; tests, rubric, and solution loaded during verification"
+  },
+  "skills": [
+    {
+      "name": "classifying-expenses-for-tax",
+      "request_area": "Workflow A: raw expense classification and tax-line mapping",
+      "validator": "scripts/validate_output.py"
+    },
+    {
+      "name": "building-books-from-bank-data",
+      "request_area": "Workflow B: chart of accounts, general ledger, and trial balance from bank data",
+      "validator": "scripts/validate_books.py"
+    },
+    {
+      "name": "analyzing-asset-depreciation",
+      "request_area": "Workflow C: asset and vehicle depreciation",
+      "validator": "scripts/validate_analysis.py"
+    },
+    {
+      "name": "handling-multistate-income",
+      "request_area": "Workflow D: multistate sourcing and filing analysis",
+      "validator": "scripts/validate_multistate.py"
+    },
+    {
+      "name": "determining-tax-loss-treatment",
+      "request_area": "Workflow E: theft, fraud, casualty, and unusual loss treatment",
+      "validator": "scripts/validate_loss.py"
+    },
+    {
+      "name": "screening-tax-deductions-and-credits",
+      "request_area": "Workflow E extension: deduction and credit sweep",
+      "validator": "scripts/validate_sweep.py"
+    },
+    {
+      "name": "creating-custom-document-requests",
+      "request_area": "Workflow F: baseline and discovery-driven document request",
+      "validator": "scripts/validate_request.py"
+    },
+    {
+      "name": "writing-client-tax-memos",
+      "request_area": "Cross-cutting client explanation memo",
+      "validator": "scripts/validate_memo.py"
+    }
+  ],
+  "validation": {
+    "skill_structure": "quick_validate.py",
+    "instruction_lint": "lint_instructions.mjs --strict",
+    "fixture_checks": "one domain validator per skill",
+    "upstream_checks": "six pinned clean checkouts, fourteen complete APEX LFS objects, five byte-exact APEX suite mirrors, and the suite validator",
+    "environment_checks": "Harbor 0.22.0 schema parsing plus eight oracle scenarios and eight incomplete-answer scenarios",
+    "archive_format": "zip-compatible .skill and .harbor.zip archives"
+  },
+  "installed_globally": false
+}

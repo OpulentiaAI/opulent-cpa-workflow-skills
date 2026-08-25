@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "environments": [
+    {
+      "skill": "classifying-expenses-for-tax",
+      "case_id": "apex-client-cost-classification",
+      "source_repo": "apex-accounting",
+      "source_task": "tasks/world_9_task_14.json",
+      "import_mode": "apex-exact",
+      "fit": "direct domain calibration",
+      "required_groups": [
+        ["$23,500.00", "$23,500", "23500"],
+        ["$45,000.00", "$45,000", "45000"],
+        ["$2,950.00", "$2,950", "2950"],
+        ["$29,400.00", "$29,400", "29400"],
+        ["1300"],
+        ["5000"],
+        ["Whitfield"],
+        ["Heritage"],
+        ["IOLTA"],
+        ["capitalized", "capitalization", "capitalize"]
+      ]
+    },
+    {
+      "skill": "building-books-from-bank-data",
+      "case_id": "apex-ar-reconciliation",
+      "source_repo": "apex-accounting",
+      "source_task": "tasks/world_9_task_13.json",
+      "import_mode": "apex-exact",
+      "fit": "direct reconciliation calibration",
+      "required_groups": [
+        ["$1,729,138.00", "$1,729,138", "1729138"],
+        ["$125.00", "$125", "125"],
+        ["$23,818.10", "$23,818.10", "23818.10"],
+        ["$22,010.66", "$22,010.66", "22010.66"],
+        ["$77,588.63", "$77,588.63", "77588.63"],
+        ["$125,873.38", "$125,873.38", "125873.38"],
+        ["$897.44", "897.44"],
+        ["Clio"],
+        ["QBO", "QuickBooks"],
+        ["reconcile", "reconciliation"]
+      ]
+    },
+    {
+      "skill": "analyzing-asset-depreciation",
+      "case_id": "suite-property-use-tax-model",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_task": "tasks/046-tax-augusta-rule-execution",
+      "import_mode": "suite-text-mirror",
+      "fit": "tax method and property use process calibration",
+      "required_groups": [
+        ["$288", "288"],
+        ["$363", "363"],
+        ["$385", "385"],
+        ["$553", "553"],
+        ["$754", "754"],
+        ["$5,390", "5390"],
+        ["14 days", "14-day", "14 ×"],
+        ["280A(g)"],
+        ["section 162", "Section 162"],
+        ["related-party", "related party"],
+        ["event log", "Event Log"]
+      ]
+    },
+    {
+      "skill": "handling-multistate-income",
+      "case_id": "suite-cross-border-jurisdiction-map",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_task": "tasks/010-harvey-cross-border-tax",
+      "import_mode": "suite-text-mirror",
+      "fit": "multi-jurisdiction process calibration",
+      "required_groups": [
+        ["Luxembourg", "MCP HoldCo S.à r.l."],
+        ["MCP BidCo BV"],
+        ["Nordenvik Group AB"],
+        ["Nordenvik Deutschland GmbH"],
+        ["Nordenvik Asia Pte. Ltd."],
+        ["20.6%"],
+        ["SEK 187 million", "187 million"],
+        ["32.98%", "30–33%", "30-33%"],
+        ["€4.1M", "4.1M", "4.1 million"],
+        ["25.8%"],
+        ["risk matrix", "Risk Matrix"],
+        ["action item", "action-item"]
+      ]
+    },
+    {
+      "skill": "determining-tax-loss-treatment",
+      "case_id": "apex-settlement-holdback",
+      "source_repo": "apex-accounting",
+      "source_task": "tasks/world_9_task_04.json",
+      "import_mode": "apex-exact",
+      "fit": "settlement and recovery process calibration",
+      "required_groups": [
+        ["$29,700", "29700"],
+        ["4200"],
+        ["2050"],
+        ["Contingency Fee Revenue"],
+        ["Accrued Expenses"],
+        ["debit", "Dr"],
+        ["credit", "Cr"],
+        ["Whitfield"],
+        ["one journal entry", "Proposed JE"]
+      ]
+    },
+    {
+      "skill": "screening-tax-deductions-and-credits",
+      "case_id": "suite-hsa-eligibility-sweep",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_task": "tasks/047-tax-hsa-optimization",
+      "import_mode": "suite-text-mirror",
+      "fit": "direct tax eligibility and benefit calibration",
+      "required_groups": [
+        ["$3,600", "3600"],
+        ["$16,500", "16500"],
+        ["6 eligible months", "six eligible months"],
+        ["$4,875", "4875"],
+        ["$2,875", "2875"],
+        ["$9,750", "9750"],
+        ["$7,750", "7750"],
+        ["December 31, 2027"],
+        ["10%"],
+        ["$3,200", "3200"],
+        ["no double benefit", "no-double-benefit"]
+      ]
+    },
+    {
+      "skill": "creating-custom-document-requests",
+      "case_id": "suite-owner-child-records-plan",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_task": "tasks/044-tax-hiring-owner-child",
+      "import_mode": "suite-text-mirror",
+      "fit": "documentation and evidence process calibration",
+      "required_groups": [
+        ["$18", "18 per hour"],
+        ["160 hours", "160 ×"],
+        ["$2,880", "2880"],
+        ["$8,000", "8000"],
+        ["FICA"],
+        ["FUTA"],
+        ["Form W-2", "W-2"],
+        ["timesheet", "time sheet"],
+        ["job description", "job-description"],
+        ["rate support", "rate-support"],
+        ["labor-law", "labor law"],
+        ["records"]
+      ]
+    },
+    {
+      "skill": "writing-client-tax-memos",
+      "case_id": "suite-solo-401k-client-memo",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_task": "tasks/042-tax-solo-401k-contribution-plan",
+      "import_mode": "suite-text-mirror",
+      "fit": "direct tax memo and calculation calibration",
+      "required_groups": [
+        ["$166,230.00", "166230"],
+        ["$25,433.19", "25433.19"],
+        ["$12,716.60", "12716.60"],
+        ["$167,283.40", "167283.40"],
+        ["$33,456.68", "33456.68"],
+        ["$14,500.00", "14500"],
+        ["$8,000.00", "8000"],
+        ["$55,956.68", "55956.68"],
+        ["$47,956.68", "47956.68"],
+        ["5500-EZ", "Form 5500-EZ"],
+        ["Sources & Assumptions", "sources and assumptions"]
+      ]
+    }
+  ]
+}

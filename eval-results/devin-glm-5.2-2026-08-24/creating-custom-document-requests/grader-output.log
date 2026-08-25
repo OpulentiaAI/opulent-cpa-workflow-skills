@@ -1,0 +1,105 @@
+{
+  "reward": 1.0,
+  "checks_passed": 13,
+  "checks_total": 13,
+  "output_file": "/tmp/opulent-devin-glm52.nZuMql/creating-custom-document-requests/output/answer.md",
+  "checks": [
+    {
+      "name": "minimum_content",
+      "passed": true
+    },
+    {
+      "name": "required_group_1",
+      "passed": true,
+      "alternatives": [
+        "$18",
+        "18 per hour"
+      ]
+    },
+    {
+      "name": "required_group_2",
+      "passed": true,
+      "alternatives": [
+        "160 hours",
+        "160 \u00d7"
+      ]
+    },
+    {
+      "name": "required_group_3",
+      "passed": true,
+      "alternatives": [
+        "$2,880",
+        "2880"
+      ]
+    },
+    {
+      "name": "required_group_4",
+      "passed": true,
+      "alternatives": [
+        "$8,000",
+        "8000"
+      ]
+    },
+    {
+      "name": "required_group_5",
+      "passed": true,
+      "alternatives": [
+        "FICA"
+      ]
+    },
+    {
+      "name": "required_group_6",
+      "passed": true,
+      "alternatives": [
+        "FUTA"
+      ]
+    },
+    {
+      "name": "required_group_7",
+      "passed": true,
+      "alternatives": [
+        "Form W-2",
+        "W-2"
+      ]
+    },
+    {
+      "name": "required_group_8",
+      "passed": true,
+      "alternatives": [
+        "timesheet",
+        "time sheet"
+      ]
+    },
+    {
+      "name": "required_group_9",
+      "passed": true,
+      "alternatives": [
+        "job description",
+        "job-description"
+      ]
+    },
+    {
+      "name": "required_group_10",
+      "passed": true,
+      "alternatives": [
+        "rate support",
+        "rate-support"
+      ]
+    },
+    {
+      "name": "required_group_11",
+      "passed": true,
+      "alternatives": [
+        "labor-law",
+        "labor law"
+      ]
+    },
+    {
+      "name": "required_group_12",
+      "passed": true,
+      "alternatives": [
+        "records"
+      ]
+    }
+  ]
+}

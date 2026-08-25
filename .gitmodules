@@ -1,0 +1,18 @@
+[submodule "upstream/apex-accounting"]
+	path = upstream/apex-accounting
+	url = https://huggingface.co/datasets/mercor/apex-accounting
+[submodule "upstream/knowledge-work-demo-suite"]
+	path = upstream/knowledge-work-demo-suite
+	url = https://github.com/OpulentiaAI/knowledge-work-demo-suite.git
+[submodule "upstream/letta-code"]
+	path = upstream/letta-code
+	url = https://github.com/letta-ai/letta-code.git
+[submodule "upstream/mattpocock-skills"]
+	path = upstream/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
+[submodule "upstream/harbor"]
+	path = upstream/harbor
+	url = https://github.com/harbor-framework/harbor.git
+[submodule "upstream/osworld"]
+	path = upstream/osworld
+	url = https://github.com/xlang-ai/OSWorld.git

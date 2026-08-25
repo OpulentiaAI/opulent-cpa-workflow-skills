@@ -1,0 +1,10 @@
+{
+  "tax_year": 2025,
+  "gross_loss": 45000.00,
+  "reimbursements_received": 5000.00,
+  "other_recovery_prospect": 0.00,
+  "provisional_net_loss": 40000.00,
+  "account_use": "business operating account",
+  "state_law_theft_classification": "unknown",
+  "unknowns": ["classification as theft under applicable state law"]
+}

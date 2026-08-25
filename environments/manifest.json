@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "environment_count": 8,
+  "environments": [
+    {
+      "skill": "classifying-expenses-for-tax",
+      "case_id": "apex-client-cost-classification",
+      "source_repo": "apex-accounting",
+      "source_commit": "bf5e8c99117b7ee763d79ad2c64563ac844d77d2",
+      "source_task": "tasks/world_9_task_14.json",
+      "fit": "direct domain calibration"
+    },
+    {
+      "skill": "building-books-from-bank-data",
+      "case_id": "apex-ar-reconciliation",
+      "source_repo": "apex-accounting",
+      "source_commit": "bf5e8c99117b7ee763d79ad2c64563ac844d77d2",
+      "source_task": "tasks/world_9_task_13.json",
+      "fit": "direct reconciliation calibration"
+    },
+    {
+      "skill": "analyzing-asset-depreciation",
+      "case_id": "suite-property-use-tax-model",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+      "source_task": "tasks/046-tax-augusta-rule-execution",
+      "fit": "tax method and property use process calibration"
+    },
+    {
+      "skill": "handling-multistate-income",
+      "case_id": "suite-cross-border-jurisdiction-map",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+      "source_task": "tasks/010-harvey-cross-border-tax",
+      "fit": "multi-jurisdiction process calibration"
+    },
+    {
+      "skill": "determining-tax-loss-treatment",
+      "case_id": "apex-settlement-holdback",
+      "source_repo": "apex-accounting",
+      "source_commit": "bf5e8c99117b7ee763d79ad2c64563ac844d77d2",
+      "source_task": "tasks/world_9_task_04.json",
+      "fit": "settlement and recovery process calibration"
+    },
+    {
+      "skill": "screening-tax-deductions-and-credits",
+      "case_id": "suite-hsa-eligibility-sweep",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+      "source_task": "tasks/047-tax-hsa-optimization",
+      "fit": "direct tax eligibility and benefit calibration"
+    },
+    {
+      "skill": "creating-custom-document-requests",
+      "case_id": "suite-owner-child-records-plan",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+      "source_task": "tasks/044-tax-hiring-owner-child",
+      "fit": "documentation and evidence process calibration"
+    },
+    {
+      "skill": "writing-client-tax-memos",
+      "case_id": "suite-solo-401k-client-memo",
+      "source_repo": "knowledge-work-demo-suite",
+      "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+      "source_task": "tasks/042-tax-solo-401k-contribution-plan",
+      "fit": "direct tax memo and calculation calibration"
+    }
+  ]
+}

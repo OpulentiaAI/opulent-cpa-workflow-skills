@@ -1,0 +1,8 @@
+account_code,account_name,debit_balance,credit_balance
+1000,Cash,7350.00,0.00
+1200,Inventory,1800.00,0.00
+1500,Equipment,2400.00,0.00
+1999,Suspense,500.00,0.00
+3000,Owner Equity,0.00,10000.00
+4000,Sales Revenue,0.00,3250.00
+6100,Rent Expense,1200.00,0.00

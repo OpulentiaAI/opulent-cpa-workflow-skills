@@ -1,0 +1,13 @@
+{
+  "tax_year": 2025,
+  "entity": "individual with Schedule C activity",
+  "baseline_topics": ["income forms", "business statements", "expenses", "assets", "estimated taxes"],
+  "custom_cues": [
+    {"cue_id": "C001", "topic": "retirement plan"},
+    {"cue_id": "C002", "topic": "vehicle"},
+    {"cue_id": "C003", "topic": "multistate work"},
+    {"cue_id": "C004", "topic": "home office"},
+    {"cue_id": "C005", "topic": "hacked account"}
+  ],
+  "already_supplied": ["2025 W-2"]
+}

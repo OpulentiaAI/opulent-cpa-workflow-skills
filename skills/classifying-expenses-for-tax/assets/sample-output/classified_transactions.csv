@@ -1,0 +1,7 @@
+txn_id,date,description,amount,category,form,line_label,confidence,status,reason,source_url
+T001,2025-03-04,DELTA AIR LINES,612.40,Travel,Schedule C (Form 1040),Line 24a Travel,0.98,accepted,Client note identifies business conference travel,https://www.irs.gov/instructions/i1040sc
+T002,2025-03-06,HILTON CHICAGO,428.00,Travel,Schedule C (Form 1040),Line 24a Travel,0.98,accepted,Client note identifies conference lodging,https://www.irs.gov/instructions/i1040sc
+T003,2025-04-01,ADOBE ACROBAT,59.99,Other expenses,Schedule C (Form 1040),Line 27b and Part V,0.90,accepted,Named software subscription with stated business use,https://www.irs.gov/instructions/i1040sc
+T004,2025-04-09,WHOLE FOODS 10234,184.22,Unknown,,,0.20,exception,Record does not establish a business purpose,
+T005,2025-04-12,SHELL OIL 5742,82.33,Unknown,,,0.30,exception,Vehicle method and business-use allocation are unresolved,
+T006,2025-04-15,STAPLES 0142,129.50,Supplies,Schedule C (Form 1040),Line 22 Supplies,0.96,accepted,Client note identifies office consumables,https://www.irs.gov/instructions/i1040sc

@@ -1,0 +1,51 @@
+{
+  "output_file": "output/answer.md",
+  "min_chars": 250,
+  "required_groups": [
+    [
+      "$18",
+      "18 per hour"
+    ],
+    [
+      "160 hours",
+      "160 \u00d7"
+    ],
+    [
+      "$2,880",
+      "2880"
+    ],
+    [
+      "$8,000",
+      "8000"
+    ],
+    [
+      "FICA"
+    ],
+    [
+      "FUTA"
+    ],
+    [
+      "Form W-2",
+      "W-2"
+    ],
+    [
+      "timesheet",
+      "time sheet"
+    ],
+    [
+      "job description",
+      "job-description"
+    ],
+    [
+      "rate support",
+      "rate-support"
+    ],
+    [
+      "labor-law",
+      "labor law"
+    ],
+    [
+      "records"
+    ]
+  ]
+}

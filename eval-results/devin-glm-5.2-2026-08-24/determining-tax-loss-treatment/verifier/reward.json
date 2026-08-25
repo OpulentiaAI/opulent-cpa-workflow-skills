@@ -1,0 +1,79 @@
+{
+  "reward": 1.0,
+  "checks_passed": 10,
+  "checks_total": 10,
+  "output_file": "/tmp/opulent-devin-glm52-r2.lO8OBs/determining-tax-loss-treatment/output/answer.md",
+  "checks": [
+    {
+      "name": "minimum_content",
+      "passed": true
+    },
+    {
+      "name": "required_group_1",
+      "passed": true,
+      "alternatives": [
+        "$29,700",
+        "29700"
+      ]
+    },
+    {
+      "name": "required_group_2",
+      "passed": true,
+      "alternatives": [
+        "4200"
+      ]
+    },
+    {
+      "name": "required_group_3",
+      "passed": true,
+      "alternatives": [
+        "2050"
+      ]
+    },
+    {
+      "name": "required_group_4",
+      "passed": true,
+      "alternatives": [
+        "Contingency Fee Revenue"
+      ]
+    },
+    {
+      "name": "required_group_5",
+      "passed": true,
+      "alternatives": [
+        "Accrued Expenses"
+      ]
+    },
+    {
+      "name": "required_group_6",
+      "passed": true,
+      "alternatives": [
+        "debit",
+        "Dr"
+      ]
+    },
+    {
+      "name": "required_group_7",
+      "passed": true,
+      "alternatives": [
+        "credit",
+        "Cr"
+      ]
+    },
+    {
+      "name": "required_group_8",
+      "passed": true,
+      "alternatives": [
+        "Whitfield"
+      ]
+    },
+    {
+      "name": "required_group_9",
+      "passed": true,
+      "alternatives": [
+        "one journal entry",
+        "Proposed JE"
+      ]
+    }
+  ]
+}

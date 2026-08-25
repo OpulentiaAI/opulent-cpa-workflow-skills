@@ -1,0 +1,100 @@
+{
+  "reward": 1.0,
+  "checks_passed": 12,
+  "checks_total": 12,
+  "output_file": "/tmp/opulent-devin-glm52.nZuMql/writing-client-tax-memos/output/answer.md",
+  "checks": [
+    {
+      "name": "minimum_content",
+      "passed": true
+    },
+    {
+      "name": "required_group_1",
+      "passed": true,
+      "alternatives": [
+        "$166,230.00",
+        "166230"
+      ]
+    },
+    {
+      "name": "required_group_2",
+      "passed": true,
+      "alternatives": [
+        "$25,433.19",
+        "25433.19"
+      ]
+    },
+    {
+      "name": "required_group_3",
+      "passed": true,
+      "alternatives": [
+        "$12,716.60",
+        "12716.60"
+      ]
+    },
+    {
+      "name": "required_group_4",
+      "passed": true,
+      "alternatives": [
+        "$167,283.40",
+        "167283.40"
+      ]
+    },
+    {
+      "name": "required_group_5",
+      "passed": true,
+      "alternatives": [
+        "$33,456.68",
+        "33456.68"
+      ]
+    },
+    {
+      "name": "required_group_6",
+      "passed": true,
+      "alternatives": [
+        "$14,500.00",
+        "14500"
+      ]
+    },
+    {
+      "name": "required_group_7",
+      "passed": true,
+      "alternatives": [
+        "$8,000.00",
+        "8000"
+      ]
+    },
+    {
+      "name": "required_group_8",
+      "passed": true,
+      "alternatives": [
+        "$55,956.68",
+        "55956.68"
+      ]
+    },
+    {
+      "name": "required_group_9",
+      "passed": true,
+      "alternatives": [
+        "$47,956.68",
+        "47956.68"
+      ]
+    },
+    {
+      "name": "required_group_10",
+      "passed": true,
+      "alternatives": [
+        "5500-EZ",
+        "Form 5500-EZ"
+      ]
+    },
+    {
+      "name": "required_group_11",
+      "passed": true,
+      "alternatives": [
+        "Sources & Assumptions",
+        "sources and assumptions"
+      ]
+    }
+  ]
+}

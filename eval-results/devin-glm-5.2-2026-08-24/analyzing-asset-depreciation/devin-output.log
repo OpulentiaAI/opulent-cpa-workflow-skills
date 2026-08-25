@@ -1,0 +1,27 @@
+I have all the source documents. Now let me set up the analysis. The skill is depreciation-focused but the task is a §280A(g) "Augusta Rule" home-rental analysis — I'll apply the skill's principles (rate support, use limits, separate tax treatments, source handling, document log) to this different code section.
+
+Let me verify my median calculation and check the tooling.Calculations confirmed. Median = $385/day; annual at benchmark = $5,390; proposed $1,800/day = 4.68× the median. Let me plan and build the deliverables.Now let me verify the workbook formulas are stored correctly and that the calculations resolve (using LibreOffice headless to recalc, or at least confirm formula strings are present).Formulas are stored correctly. Let me recalculate with LibreOffice to confirm the values resolve as expected.Workbook verified — all formulas resolve: 14 days, $5,390 annual at benchmark, guard = PASS, ratio 4.68×, excess $19,810. Now the memo and the answer.All three files are in place and the workbook preserves live formulas (verified by recalculation: 14 days, $5,390 annual at benchmark, guard = PASS, ratio 4.68×, excess $19,810).Done. All deliverables are complete and verified.
+
+## Summary
+
+**Rate support:** The five comparable asking rates in `calculation_inputs.csv` (288, 363, 385, 553, 754) yield a **median of $385/day** — the frozen planning benchmark. **Annual payment at benchmark = $385 × 14 = $5,390.**
+
+**The proposed $1,800/day rate is not supportable** — it is **4.68×** the median comparable, putting **$19,810/year** at risk of § 162 disallowance and recharacterization as a constructive distribution and/or compensation to Taylor.
+
+**Two distinct tax analyses:**
+- **Owner (§ 280A(g)):** 14 rental days < 15 → rental income **excluded** from gross income (no dollar cap; turns on day count), and **no rental-use deductions** allowed. The 15-day limit is a **cliff** — a 15th day collapses the exclusion for the entire year.
+- **Company (§ 162):** A **separate** question. At $385/day the $5,390 rent is ordinary, necessary, and reasonable and is deductible; at $1,800/day the excess is not. Taylor is a related party, so reasonableness gets particular scrutiny.
+
+**Deliverables:**
+- `augusta_rule_execution_memo.md` — execution memo (facts, authority, rate support, the two analyses, counterfactual, controls, evidence gaps).
+- `rental_event_log.xlsx` — **Event Log** (14 dated 2026 meetings with live formulas for hours, line totals, cumulative rental days, and a PASS/FAIL day-count guard) + **Sources & Assumptions** sheet (benchmark with `MEDIAN` formula, annual payment, ratio, excess, cited authority URLs, assumptions, evidence gaps). Formulas preserved and confirmed by LibreOffice recalc.
+- `output/answer.md` — the complete analysis.
+
+**Marked as planning estimate, not a filed result.** Evidence gaps flagged: comparables are asking rates (not transactions), comparability adjustments (CHI-02 seats 6 vs. 8), verify no other 2026 rental use, state/local taxes outside scope, and CPA/payroll-provider/corporate-governance confirmations required.
+I'll add the literal phrase "Section 162" in the company deduction analysis section (§ 4.2), keeping the § symbol usages intact and facts unchanged.Now let me also add "Section 162" to the conclusions section where the company side is summarized, for consistency.Now let me verify the literal phrase "Section 162" is present and the file is intact.Complete. The literal phrase **"Section 162"** now appears in `output/answer.md` in the company-deduction analysis:
+
+- **§ 4.2 heading:** `### 4.2 Company (Willow Strategy Inc.) — Section 162 (IRC § 162)`
+- **§ 4.2 body:** `The company's deduction is governed by Section 162 (IRC § 162), not § 280A(g).`
+- **§ 5 conclusions:** `4. Company side (Section 162 / IRC § 162): ...`
+
+The supported facts are unchanged — benchmark $385/day, annual $5,390, ratio 4.68×, excess $19,810, 14 rental days all remain. The `§ 162` symbol usages elsewhere are retained for cross-references. File verified: 133 lines, all key figures intact.

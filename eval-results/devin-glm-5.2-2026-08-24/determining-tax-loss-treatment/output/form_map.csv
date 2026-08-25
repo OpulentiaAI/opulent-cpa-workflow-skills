@@ -1,0 +1,6 @@
+candidate,form,section,line_label,status,source_url
+Business theft loss,Form 4684,Section B,Business and income-producing property,rejected,https://www.irs.gov/instructions/i4684
+Bad debt,Form 1065 Schedule K,Line 12,Section 582 bad debts (not applicable),rejected,https://www.irs.gov/instructions/i1065
+Capital loss,Form 8949 / Schedule D,Part I,Short-term capital loss (not applicable),rejected,https://www.irs.gov/instructions/i8949
+Revenue adjustment / return of overpayment,Form 1065,Line 1b,Ordinary income - fee revenue reduction,supported,https://www.irs.gov/instructions/i1065
+No current loss deduction / recovery pending,Form 1065,Disclosure only,No current deduction - subsequent event disclosure,review,https://www.irs.gov/instructions/i1065

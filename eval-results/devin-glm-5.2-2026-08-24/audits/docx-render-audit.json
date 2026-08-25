@@ -1,0 +1,14 @@
+{
+  "file": "handling-multistate-income/tax-structure-memo.docx",
+  "renderer": "LibreOffice through the bundled documents render_docx.py workflow",
+  "pages_rendered_and_inspected": 12,
+  "visual_result": "pass",
+  "checks": {
+    "clipping": false,
+    "overlap": false,
+    "broken_tables": false,
+    "orphaned_headings": false,
+    "large_avoidable_blank_areas": false,
+    "withholding_tax_rows_kept_together": true
+  }
+}

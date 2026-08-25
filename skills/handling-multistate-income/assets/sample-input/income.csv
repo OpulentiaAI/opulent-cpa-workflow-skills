@@ -1,0 +1,4 @@
+income_id,form,payer,gross_amount,withholding_state,withholding_amount,note
+I001,1099-NEC,Desert Health Partners,120000.00,AZ,4500.00,Services performed in Illinois and Arizona
+I002,W-2,Chicago Medical Center,450000.00,IL,22000.00,Illinois wages
+I003,1099-NEC,Midwest Clinical Group,300000.00,IL,0.00,Services performed in Illinois

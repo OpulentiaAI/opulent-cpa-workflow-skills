@@ -1,0 +1,28 @@
+{
+  "tax_year": 2025,
+  "cost_basis": 65000.00,
+  "business_miles": 6000.00,
+  "commuting_miles": 4000.00,
+  "personal_miles": 10000.00,
+  "total_miles": 20000.00,
+  "qualified_business_use_pct": 0.30,
+  "predominant_use_threshold": 0.50,
+  "predominant_business_use": false,
+  "section_179_status": "ineligible under predominant-use test",
+  "special_allowance_status": "ineligible under predominant-use test",
+  "method_status": "ADS straight-line candidate; CPA must confirm recovery period and convention",
+  "depreciable_business_basis": 19500.00,
+  "fixture_rate": 0.10,
+  "fixture_deduction": 1950.00,
+  "counterfactual": {
+    "changed_assumption": "qualified business use is 100 percent",
+    "business_use_pct": 1.00,
+    "depreciable_business_basis": 65000.00,
+    "fixture_rate": 0.10,
+    "fixture_deduction": 6500.00
+  },
+  "authorities": [
+    {"topic": "predominant business use", "source_url": "https://www.irs.gov/publications/p946", "accessed": "2026-08-24"},
+    {"topic": "vehicle records", "source_url": "https://www.irs.gov/publications/p463", "accessed": "2026-08-24"}
+  ]
+}

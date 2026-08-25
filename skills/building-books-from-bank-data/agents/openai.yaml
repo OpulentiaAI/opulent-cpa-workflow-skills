@@ -1,0 +1,3 @@
+interface:
+  display_name: "Building Books From Bank Data"
+  short_description: "Build a ledger and tied trial balance from bank CSVs"

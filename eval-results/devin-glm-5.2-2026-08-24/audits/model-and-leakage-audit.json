@@ -1,0 +1,98 @@
+[
+  {
+    "skill": "classifying-expenses-for-tax",
+    "session_id": "picayune-dirigible",
+    "agent_name": "devin",
+    "agent_version": "3000.5.20",
+    "model_name": "GLM-5.2 High",
+    "generation_model": "glm-5-2",
+    "generation_steps": 21,
+    "paid_model_used": false,
+    "skill_activation_evidence": true,
+    "forbidden_hidden_test_references": []
+  },
+  {
+    "skill": "building-books-from-bank-data",
+    "session_id": "stream-drum",
+    "agent_name": "devin",
+    "agent_version": "3000.5.20",
+    "model_name": "GLM-5.2 High",
+    "generation_model": "glm-5-2",
+    "generation_steps": 18,
+    "paid_model_used": false,
+    "skill_activation_evidence": true,
+    "forbidden_hidden_test_references": []
+  },
+  {
+    "skill": "analyzing-asset-depreciation",
+    "session_id": "lime-sand",
+    "agent_name": "devin",
+    "agent_version": "3000.5.20",
+    "model_name": "GLM-5.2 High",
+    "generation_model": "glm-5-2",
+    "generation_steps": 45,
+    "paid_model_used": false,
+    "skill_activation_evidence": true,
+    "forbidden_hidden_test_references": []
+  },
+  {
+    "skill": "handling-multistate-income",
+    "session_id": "crocus-bathroom",
+    "agent_name": "devin",
+    "agent_version": "3000.5.20",
+    "model_name": "GLM-5.2 High",
+    "generation_model": "glm-5-2",
+    "generation_steps": 48,
+    "paid_model_used": false,
+    "skill_activation_evidence": true,
+    "forbidden_hidden_test_references": []
+  },
+  {
+    "skill": "determining-tax-loss-treatment",
+    "session_id": "celestial-emoji",
+    "agent_name": "devin",
+    "agent_version": "3000.5.20",
+    "model_name": "GLM-5.2 High",
+    "generation_model": "glm-5-2",
+    "generation_steps": 49,
+    "paid_model_used": false,
+    "skill_activation_evidence": true,
+    "forbidden_hidden_test_references": []
+  },
+  {
+    "skill": "screening-tax-deductions-and-credits",
+    "session_id": "cookie-ethernet",
+    "agent_name": "devin",
+    "agent_version": "3000.5.20",
+    "model_name": "GLM-5.2 High",
+    "generation_model": "glm-5-2",
+    "generation_steps": 54,
+    "paid_model_used": false,
+    "skill_activation_evidence": true,
+    "forbidden_hidden_test_references": []
+  },
+  {
+    "skill": "creating-custom-document-requests",
+    "session_id": "free-helium",
+    "agent_name": "devin",
+    "agent_version": "3000.5.20",
+    "model_name": "GLM-5.2 High",
+    "generation_model": "glm-5-2",
+    "generation_steps": 50,
+    "paid_model_used": false,
+    "skill_activation_evidence": true,
+    "forbidden_hidden_test_references": []
+  },
+  {
+    "skill": "writing-client-tax-memos",
+    "session_id": "cookie-city",
+    "agent_name": "devin",
+    "agent_version": "3000.5.20",
+    "model_name": "GLM-5.2 High",
+    "generation_model": "glm-5-2",
+    "generation_steps": 57,
+    "paid_model_used": false,
+    "skill_activation_evidence": true,
+    "forbidden_hidden_test_references": []
+  }
+]

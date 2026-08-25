@@ -1,0 +1,8 @@
+account_code,account_name,account_type,normal_balance,source
+1000,Cash,Asset,Debit,Bank export
+1200,Inventory,Asset,Debit,Business profile
+1500,Equipment,Asset,Debit,Transaction description
+1999,Suspense,Asset,Debit,Temporary exception control
+3000,Owner Equity,Equity,Credit,Entity profile
+4000,Sales Revenue,Revenue,Credit,Sales deposit description
+6100,Rent Expense,Expense,Debit,Transaction description

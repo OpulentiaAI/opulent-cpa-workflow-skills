@@ -1,0 +1,28 @@
+schema_version = "1.4"
+
+[task]
+name = "opulent-cpa/analyzing-asset-depreciation-suite-property-use-tax-model"
+version = "1.0.0"
+description = "Document a Section 280A(g) Home-Rental Arrangement"
+authors = [{ name = "OpulentiaAI", email = "research@opulentia.ai" }]
+keywords = ["analyzing-asset-depreciation", "source-grounded", "accounting", "tax"]
+
+[metadata]
+author_name = "OpulentiaAI"
+author_email = "research@opulentia.ai"
+difficulty = "hard"
+category = "accounting-and-tax"
+tags = ["analyzing-asset-depreciation", "source-grounded", "tax-strategy-execution-manual-inspired-advisory-work" ]
+
+[agent]
+timeout_sec = 1800.0
+
+[verifier]
+timeout_sec = 120.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+network_mode = "no-network"

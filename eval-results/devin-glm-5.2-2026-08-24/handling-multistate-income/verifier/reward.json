@@ -1,0 +1,104 @@
+{
+  "reward": 1.0,
+  "checks_passed": 13,
+  "checks_total": 13,
+  "output_file": "/tmp/opulent-devin-glm52-r2.lO8OBs/handling-multistate-income/output/answer.md",
+  "checks": [
+    {
+      "name": "minimum_content",
+      "passed": true
+    },
+    {
+      "name": "required_group_1",
+      "passed": true,
+      "alternatives": [
+        "Luxembourg",
+        "MCP HoldCo S.\u00e0 r.l."
+      ]
+    },
+    {
+      "name": "required_group_2",
+      "passed": true,
+      "alternatives": [
+        "MCP BidCo BV"
+      ]
+    },
+    {
+      "name": "required_group_3",
+      "passed": true,
+      "alternatives": [
+        "Nordenvik Group AB"
+      ]
+    },
+    {
+      "name": "required_group_4",
+      "passed": true,
+      "alternatives": [
+        "Nordenvik Deutschland GmbH"
+      ]
+    },
+    {
+      "name": "required_group_5",
+      "passed": true,
+      "alternatives": [
+        "Nordenvik Asia Pte. Ltd."
+      ]
+    },
+    {
+      "name": "required_group_6",
+      "passed": true,
+      "alternatives": [
+        "20.6%"
+      ]
+    },
+    {
+      "name": "required_group_7",
+      "passed": true,
+      "alternatives": [
+        "SEK 187 million",
+        "187 million"
+      ]
+    },
+    {
+      "name": "required_group_8",
+      "passed": true,
+      "alternatives": [
+        "32.98%",
+        "30\u201333%",
+        "30-33%"
+      ]
+    },
+    {
+      "name": "required_group_9",
+      "passed": true,
+      "alternatives": [
+        "\u20ac4.1M",
+        "4.1M",
+        "4.1 million"
+      ]
+    },
+    {
+      "name": "required_group_10",
+      "passed": true,
+      "alternatives": [
+        "25.8%"
+      ]
+    },
+    {
+      "name": "required_group_11",
+      "passed": true,
+      "alternatives": [
+        "risk matrix",
+        "Risk Matrix"
+      ]
+    },
+    {
+      "name": "required_group_12",
+      "passed": true,
+      "alternatives": [
+        "action item",
+        "action-item"
+      ]
+    }
+  ]
+}

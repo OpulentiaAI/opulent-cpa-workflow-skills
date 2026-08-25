@@ -1,0 +1,50 @@
+{
+  "output_file": "output/answer.md",
+  "min_chars": 250,
+  "required_groups": [
+    [
+      "Luxembourg",
+      "MCP HoldCo S.\u00e0 r.l."
+    ],
+    [
+      "MCP BidCo BV"
+    ],
+    [
+      "Nordenvik Group AB"
+    ],
+    [
+      "Nordenvik Deutschland GmbH"
+    ],
+    [
+      "Nordenvik Asia Pte. Ltd."
+    ],
+    [
+      "20.6%"
+    ],
+    [
+      "SEK 187 million",
+      "187 million"
+    ],
+    [
+      "32.98%",
+      "30\u201333%",
+      "30-33%"
+    ],
+    [
+      "\u20ac4.1M",
+      "4.1M",
+      "4.1 million"
+    ],
+    [
+      "25.8%"
+    ],
+    [
+      "risk matrix",
+      "Risk Matrix"
+    ],
+    [
+      "action item",
+      "action-item"
+    ]
+  ]
+}

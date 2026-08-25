@@ -1,0 +1,7 @@
+txn_id,date,description,amount,account,client_note
+T001,2025-03-04,DELTA AIR LINES,612.40,Business Card,Flight to medical consulting conference
+T002,2025-03-06,HILTON CHICAGO,428.00,Business Card,Conference hotel
+T003,2025-04-01,ADOBE ACROBAT,59.99,Business Card,PDF software used for consulting files
+T004,2025-04-09,WHOLE FOODS 10234,184.22,Business Card,
+T005,2025-04-12,SHELL OIL 5742,82.33,Business Card,Vehicle also used personally
+T006,2025-04-15,STAPLES 0142,129.50,Business Card,Printer paper and folders

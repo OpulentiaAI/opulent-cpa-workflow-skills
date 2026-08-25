@@ -1,0 +1,6 @@
+request_id,topic,document_or_fact,period,reason,priority
+R001,income forms,All 2025 Forms 1099 and K-1 not already supplied,2025,Reconcile taxable income sources,high
+R002,business statements,All business bank and credit card statements,2025,Reconcile business activity,high
+R003,expenses,Expense export plus receipts for material or unusual items,2025,Classify and substantiate business expenses,high
+R004,assets,Purchase documents for business equipment and improvements,2025,Establish basis and placed-in-service facts,high
+R005,estimated taxes,Federal and state estimated tax payment confirmations,2025,Reconcile payments and credits,medium

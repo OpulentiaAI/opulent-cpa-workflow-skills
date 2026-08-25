@@ -1,0 +1,28 @@
+schema_version = "1.4"
+
+[task]
+name = "opulent-cpa/writing-client-tax-memos-suite-solo-401k-client-memo"
+version = "1.0.0"
+description = "Calculate and Execute a Solo 401(k) Contribution Plan"
+authors = [{ name = "OpulentiaAI", email = "research@opulentia.ai" }]
+keywords = ["writing-client-tax-memos", "source-grounded", "accounting", "tax"]
+
+[metadata]
+author_name = "OpulentiaAI"
+author_email = "research@opulentia.ai"
+difficulty = "hard"
+category = "accounting-and-tax"
+tags = ["writing-client-tax-memos", "source-grounded", "tax-strategy-execution-manual-inspired-advisory-work" ]
+
+[agent]
+timeout_sec = 1800.0
+
+[verifier]
+timeout_sec = 120.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+network_mode = "no-network"

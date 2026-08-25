@@ -1,0 +1,22 @@
+{
+  "skill": "writing-client-tax-memos",
+  "case_id": "suite-solo-401k-client-memo",
+  "fit": "direct tax memo and calculation calibration",
+  "import_mode": "suite-text-mirror",
+  "source_repo": "knowledge-work-demo-suite",
+  "source_remote": "https://github.com/OpulentiaAI/knowledge-work-demo-suite.git",
+  "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+  "source_task": "tasks/042-tax-solo-401k-contribution-plan",
+  "upstream_id": "original/042-tax-solo-401k-contribution-plan",
+  "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+  "source_files": {
+    "environment/source_docs/calculation_inputs.csv": "c6f1cb26b656c11f74b04356d9d2c23643d9e6efc3ff6e39fd6942d82f7e0a4c",
+    "environment/source_docs/client_facts.md": "43168c004848f5f9596344cbda1808fd015eded7ecf30534bb3787e1526332cd",
+    "environment/source_docs/official_guidance.md": "7cf881c70f849356fb97f6a7f3d96453ccd5a46eaf8eab8f017df8696f63d85d"
+  },
+  "hidden_from_agent": [
+    "tests/rubric.json",
+    "tests/grader_spec.json",
+    "solution/reference_answer.md"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "task_id": "task_8654129a5aac4ca583a47ffcdea8ebc0",
+  "task_name": "World 9 Task 14",
+  "world_id": "world_0645ad7c997c415e8c43f8de7cee2008",
+  "prompt": "Review the December client cost advance reconciliation. Reconcile the client cost advance ledger to the QBO/GL balance for client cost advances. Using the cost advance ledger methodology and provided support, verify whether hard costs that should be treated as client cost advances were capitalized and whether soft costs were expensed. Identify any discrepancies in cost classification or capitalization treatment that need to be resolved.\n\nRound all amounts to two decimal places. Do not round intermediary values. Provide your answer to the console.",
+  "context_files": [
+    "workpaper_client_cost_advance_ledger_2024.xlsx",
+    "qbo_general_ledger_detail_2024.xlsx",
+    "engagement_letter_summary_2024.xlsx",
+    "clio_billing_export_2024.csv",
+    "iolta_bank_transactions.csv",
+    "workpaper_whitfield_settlement_summary.xlsx",
+    "Whitfield_Contingency_Cost_Recovery_Addendum.pdf"
+  ],
+  "rubric": [
+    {
+      "id": "ver_4a222a154df44589a29ba6611cdbaeea",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "Reports the client cost advance ledger ending balance for Client Cost Advances Hard Costs (or Account 1300) as $0.00 (acceptable value is $0.00)."
+    },
+    {
+      "id": "ver_cadb3774d955427b982ef336f35dfd2c",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "Reports the QBO GL ending balance for Client Cost Advances Hard Costs (or Account 1300) as $0.00 (acceptable value is $0.00)."
+    },
+    {
+      "id": "ver_b98e77008a494cbaa098ebadb8c1c7d3",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "Reports the difference between the client cost advance ledger and QBO Client Cost Advances Hard Costs (or Account 1300) as $0.00 (acceptable value is $0.00)."
+    },
+    {
+      "id": "ver_1648481e530a405eb653e6e5172ed67d",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that QBO account 1300 includes an opening debit of $45,000.00 for Whitfield cost advances (acceptable value is $45,000.00)."
+    },
+    {
+      "id": "ver_1cd21fbf592047eaac603b25ca71ec3c",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that QBO account 1300 includes a Whitfield settlement cost recovery credit of $45,000.00 posted on JE-OB-000843 for matter M-2024-0018 (acceptable value is $45,000.00)."
+    },
+    {
+      "id": "ver_e7568a8ebc7641ceb331adec4006e09b",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "Identifies the Whitfield M-2024-0018 Contract Attorney Fees Matter Direct (or Account 5000) AP bill lines as a capitalization issue."
+    },
+    {
+      "id": "ver_560bee44af05427bb62fc06692146627",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that the Whitfield M-2024-0018 account 5000 contract attorney matter direct lines total $23,500.00 (acceptable value is $23,500.00)."
+    },
+    {
+      "id": "ver_2d9f3d9b67394a23949fa9f5db3ebeb5",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that Jennifer Kao Law PLLC accounts for $12,000.00 of the Whitfield Contract Attorney Fees Matter Direct (or Account 5000) issue (acceptable value is $12,000.00)."
+    },
+    {
+      "id": "ver_d6b29c8bbedb46be8fc9a267c6a2090f",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that Westfield Legal Services LLC accounts for $8,000.00 of the Whitfield Contract Attorney Fees Matter Direct (or Account 5000) issue (acceptable value is $8,000.00)."
+    },
+    {
+      "id": "ver_4db561562e8f4a3eab1e1e024359d796",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that Marcus Avila, Esq. accounts for $3,500.00 of the Whitfield Contract Attorney Fees Matter Direct (or Account 5000) issue (acceptable value is $3,500.00)."
+    },
+    {
+      "id": "ver_bce32b42dac948cab4dc54534a9dd5f9",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "States that the Whitfield cost recovery addendum supports treating matter direct contract attorney services on the Whitfield contingency matter as reimbursable client costs or client cost advances."
+    },
+    {
+      "id": "ver_8104117f5c414be794927f40b829a813",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that total QBO account 5000 Contract Attorney Fees Matter Direct activity is $76,000.00 (acceptable value is $76,000.00)."
+    },
+    {
+      "id": "ver_c1a95dde831644d7aa3c9653a1d4896a",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that non Whitfield account 5000 matter direct activity totals $52,500.00 (acceptable value is $52,500.00)."
+    },
+    {
+      "id": "ver_b6eb46f2561046579e6ced5cf59abc7a",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "States that the $23,500.00 Whitfield contract attorney matter direct costs were not capitalized to account 1300."
+    },
+    {
+      "id": "ver_e97f388f3f774750a48904a3f7a99a28",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "States that the $23,500.00 Whitfield contract attorney matter direct costs were not included in the $45,000.00 Whitfield settlement cost reimbursement."
+    },
+    {
+      "id": "ver_8896570317bb41c081e7688eea540ae5",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "States that the Whitfield account 5000 treatment is inaccurate or requires correction because the $23,500.00 should have been capitalized to account 1300."
+    },
+    {
+      "id": "ver_085643cfb1f24489bcb54a7acaaf1ae9",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that trust paid costs labeled Hard in the ledger total $26,450.00 (acceptable value is $26,450.00)."
+    },
+    {
+      "id": "ver_dd1f0312fb99491f84988918d0d3fa77",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "States that trust paid costs should not be posted to Client Cost Advances Hard Costs (or Account 1300) because they were paid directly from IOLTA."
+    },
+    {
+      "id": "ver_c1c9afb0d32147ba8464137f3525556b",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "Identifies no more than three Heritage Litigation Support document production rows labeled Soft that should be classified as Hard."
+    },
+    {
+      "id": "ver_a23bbc2ae0af41d38a05537d7e286375",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that the Heritage Litigation Support hard/soft workpaper label issue totals $2,950.00 (acceptable value is $2,950.00)."
+    },
+    {
+      "id": "ver_1f363da16332471ba2bb9a935333ec3e",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that after the Heritage workpaper label correction, trust paid policy hard costs total $29,400.00 (acceptable value is $29,400.00)."
+    },
+    {
+      "id": "ver_5de8196ad11f4f75957889d7419f75e6",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "States that the corrected trust paid policy hard costs tie to IOLTA cost disbursements."
+    },
+    {
+      "id": "ver_fad35ec13fb64a19b24d9444585740bb",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "States that the Heritage Litigation Support issue has no GL impact."
+    },
+    {
+      "id": "ver_cfecb3c0354948119ecd0960a0304483",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "Proposes the journal entry to correct the Whitfield contract attorney misclassification as $23,500.00 Dr Client Cost Advances Hard Costs (or Account 1300), Cr Contract Attorney Fees Matter Direct (or Account 5000) (acceptable value is $23,500.00)."
+    }
+  ],
+  "gold_output": "1) Client cost advance ledger ending balance for account 1300: $0.00\n2) QBO GL ending balance for account 1300 Client Cost Advances Hard Costs: $0.00\n3) Difference between the client cost advance ledger and QBO account 1300: $0.00\n4) Relevant QBO account 1300 activity:\n-Opening balance: Dr 1300 Client Cost Advances Hard Costs $45,000.00\n- Whitfield settlement cost recovery: Cr 1300 Client Cost Advances Hard Costs $45,000.00, posted on JE-OB-000843 for matter M-2024-0018\n5) Cost classification and capitalization issues:\n- QBO includes six Whitfield matter M-2024-0018 AP bill lines posted to 5000 Contract Attorney Fees Matter Direct instead of account 1300. The six lines are JE-BILL-2024-00333 $4,000.00, JE-BILL-2024-00322 $4,000.00, JE-BILL-2024-00334 $4,000.00, JE-BILL-2024-00323 $4,000.00, JE-BILL-2024-00330 $3,500.00, and JE-BILL-2024-00324 $4,000.00, totaling $23,500.00.\n- The Whitfield account 5000 total is made up of Jennifer Kao Law PLLC $12,000.00, Westfield Legal Services LLC $8,000.00, and Marcus Avila, Esq. $3,500.00.\n-The Whitfield cost recovery addendum states that matter direct contract attorney services on the Whitfield contingency matter are reimbursable client costs to be tracked as client cost advances when firm paid.\n- The $23,500.00 of Whitfield contract attorney matter direct costs was not capitalized to 1300.\n- The $23,500.00 was not included in the $45,000.00 Whitfield settlement cost reimbursement shown in the settlement summary.\n- Account 5000 Contract Attorney Fees Matter Direct totals $76,000.00 for the year. Of that amount, $52,500.00 relates to non Whitfield matters and is outside the 1300 Whitfield capitalization issue.\n- Trust paid costs labeled Hard in the ledger total $26,450.00 and were correctly excluded from account 1300 because they were paid directly from IOLTA.\n- Three Heritage Litigation Support document production rows are labeled Soft in the ledger but should be classified as Hard under the policy because third party document production is a hard cost. The Heritage label issue totals $2,950.00.\n- The Heritage issue has no GL impact because the items were paid directly from IOLTA.\n- After the Heritage label correction, trust paid policy hard costs total $29,400.00 and tie to IOLTA cost disbursements.\n- Clio billed/reimbursed client cost recoveries total $47,587.09 and tie to QBO account 4300; they are outside the 1300 asset balance.\n6) Reconciliation conclusion:\nThe ledger and QBO account 1300 tie at $0.00 before correction. However, the $23,500.00 of Whitfield contract attorney matter direct costs should have been capitalized to account 1300 under the Whitfield cost recovery addendum and were incorrectly expensed to account 5000.\n7) Correcting journal entry:\nDr 1300 Client Cost Advances Hard Costs $23,500.00\nCr 5000 Contract Attorney Fees Matter Direct $23,500.00",
+  "metadata": {
+    "category": "Reconciliation",
+    "subcategory": "Client cost rec",
+    "output_type": "console_text",
+    "world_entity_type": "legal_services",
+    "estimated_completion_hours": 1.5,
+    "author_role": "expert",
+    "reviewer_role": "expert"
+  }
+}

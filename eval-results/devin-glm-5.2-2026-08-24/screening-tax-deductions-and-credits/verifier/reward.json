@@ -1,0 +1,98 @@
+{
+  "reward": 1.0,
+  "checks_passed": 12,
+  "checks_total": 12,
+  "output_file": "/tmp/opulent-devin-glm52-r2.lO8OBs/screening-tax-deductions-and-credits/output/answer.md",
+  "checks": [
+    {
+      "name": "minimum_content",
+      "passed": true
+    },
+    {
+      "name": "required_group_1",
+      "passed": true,
+      "alternatives": [
+        "$3,600",
+        "3600"
+      ]
+    },
+    {
+      "name": "required_group_2",
+      "passed": true,
+      "alternatives": [
+        "$16,500",
+        "16500"
+      ]
+    },
+    {
+      "name": "required_group_3",
+      "passed": true,
+      "alternatives": [
+        "6 eligible months",
+        "six eligible months"
+      ]
+    },
+    {
+      "name": "required_group_4",
+      "passed": true,
+      "alternatives": [
+        "$4,875",
+        "4875"
+      ]
+    },
+    {
+      "name": "required_group_5",
+      "passed": true,
+      "alternatives": [
+        "$2,875",
+        "2875"
+      ]
+    },
+    {
+      "name": "required_group_6",
+      "passed": true,
+      "alternatives": [
+        "$9,750",
+        "9750"
+      ]
+    },
+    {
+      "name": "required_group_7",
+      "passed": true,
+      "alternatives": [
+        "$7,750",
+        "7750"
+      ]
+    },
+    {
+      "name": "required_group_8",
+      "passed": true,
+      "alternatives": [
+        "December 31, 2027"
+      ]
+    },
+    {
+      "name": "required_group_9",
+      "passed": true,
+      "alternatives": [
+        "10%"
+      ]
+    },
+    {
+      "name": "required_group_10",
+      "passed": true,
+      "alternatives": [
+        "$3,200",
+        "3200"
+      ]
+    },
+    {
+      "name": "required_group_11",
+      "passed": true,
+      "alternatives": [
+        "no double benefit",
+        "no-double-benefit"
+      ]
+    }
+  ]
+}

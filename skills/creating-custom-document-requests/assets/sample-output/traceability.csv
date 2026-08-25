@@ -1,0 +1,11 @@
+request_id,source_type,source_ref,client_fact
+R001,client profile,baseline_topics,Income forms required for new Schedule C client
+R002,client profile,baseline_topics,Business statements required for reconciliation
+R003,client profile,baseline_topics,Expense records required for classification
+R004,client profile,baseline_topics,Asset records required for basis and depreciation
+R005,client profile,baseline_topics,Estimated payment records required for credit reconciliation
+R101,discovery notes,C001,Client uses a self-directed 401(k)
+R102,discovery notes,C002,Client bought a vehicle for business
+R103,discovery notes,C003,Client works with an Arizona payer
+R104,discovery notes,C004,Client uses a home office
+R105,discovery notes,C005,Client reports a hacked business account

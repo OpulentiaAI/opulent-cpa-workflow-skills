@@ -1,0 +1,45 @@
+I have all the evidence I need. Let me write the analysis to `output/answer.md`.Analysis complete. Let me verify the output file and print the conclusion to the console.## December 2024 Client Cost Advance Reconciliation — Console Summary
+
+**Matter:** Whitfield Family Trust v. Continental Securities (M-2024-0018), contingency, Sterling, Marsh & Associates LLP.
+
+### Reconciliation: cost advance ledger 1300 → QBO/GL
+Account `1300 Client Cost Advances - Hard Costs` QBO/GL activity:
+- 2024-01-01 opening debit: **$45,000.00**
+- 2024-12-15 settlement credit (JE-OB-000843): **($45,000.00)**
+- **Ending balance 12/31/2024: $0.00**
+
+Cost ledger rollforward matches exactly (opening 45,000.00 + additions 0.00 − recovery 45,000.00 = 0.00). **Ledger-to-GL difference: $0.00.** Cross-ties recomputed: IOLTA cost disbursements 29,400.00; Clio billed costs 47,587.09; Whitfield recovery 45,000.00 — all tie. No Whitfield rows exist in IOLTA or Clio (all 2024 Whitfield cost activity ran through AP/operating).
+
+### Hard-cost capitalization test — NOT satisfied
+Six 2024 Whitfield matter-direct professional service bills were coded to operating expense `5000 Contract Attorney Fees — Matter Direct` instead of capitalized to `1300`. Each is a cost type the addendum expressly designates a reimbursable client cost advance when firm-paid, and each was firm-paid via AP:
+
+| Bill date | Vendor | Cost type | Amount |
+|---|---|---|---:|
+| 2024-04-30 | Westfield Legal Services LLC | Overflow counsel | 4,000.00 |
+| 2024-08-15 | Jennifer Kao Law PLLC | Contract attorney doc review | 4,000.00 |
+| 2024-08-31 | Westfield Legal Services LLC | Overflow counsel | 4,000.00 |
+| 2024-09-15 | Jennifer Kao Law PLLC | Pre-settlement doc review | 4,000.00 |
+| 2024-09-25 | Marcus Avila, Esq. | Settlement memo & brief | 3,500.00 |
+| 2024-10-15 | Jennifer Kao Law PLLC | Settlement doc preparation | 4,000.00 |
+| | | **Total misclassified** | **23,500.00** |
+
+Corrected rollforward: additions should be 23,500.00 (not 0.00); settlement recovery should be 68,500.00 (not 45,000.00); ending still 0.00. The firm expensed $23,500.00 to 2024 P&L and failed to recover it at settlement (recovery received was only the 45,000.00 2023 carryover). The workpaper's "2024 additions $0.00 … trust-funded channels" narrative is incorrect — there is zero Whitfield IOLTA activity.
+
+### Soft-cost expensing test — satisfied for Whitfield
+No soft costs (in-house copies, postage, office overhead) were capitalized to 1300; the 45,000.00 opening pool is entirely hard-cost categories. Secondary label-only discrepancy: $2,950.00 of third-party Heritage Litigation Support document production (CCA-2024-0001/-0010/-0017) is labeled Soft but is Hard per methodology — trust-paid, no 1300 impact.
+
+### Control gap
+Other contingency matters (M-2024-0016 Meadowbrook, M-2024-0017 Ferndale) have zero GL rows; their costs are tracked off-system and not on 1300, indicating the Whitfield error is systemic.
+
+### Discrepancies to resolve
+1. **$23,500.00** Whitfield firm-paid hard costs expensed to 5000 instead of capitalized to 1300 and recovered at settlement — reclassify (Dr 1300 / Cr 5000), pursue additional recovery or obtain partner/controller write-off approval.
+2. **$2,950.00** Heritage document production mislabeled Soft — correct label to Hard.
+3. Contingency-matter cost capture not extended firm-wide to 1300.
+
+### Evidence gaps
+Executed settlement agreement/disbursement instructions; vendor invoice support for the six bills; partner/controller write-off approval; executed (non-internal-copy) addendum; off-system ledgers for M-2024-0016/-0017; Heritage vendor file.
+
+### Implementation controls required
+Matter-type-driven AP coding (contingency + matter-direct cost types → 1300, block 5000); 1300 rollforward-to-AP reconciliation each close; settlement close checklist (1300 balance = accumulated ledger incl. current-year hard costs; recovery tranche = balance; signed write-off for unrecovered); workpaper narrative substantiated against source records; hard/soft reference codifying third-party document production = Hard; extend 1300 tracking to all contingency matters; post the 2024 correcting entry.
+
+Full analysis with calculations, evidence gaps, and controls written to `output/answer.md` (219 lines). [answer.md](file:///private/tmp/opulent-devin-glm52.nZuMql/classifying-expenses-for-tax/output/answer.md)

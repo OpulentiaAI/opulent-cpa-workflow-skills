@@ -1,0 +1,27 @@
+I'll start by exploring the workspace and invoking the relevant skill, then examine the source documents.This is a cross-border M&A tax structure task. Let me set up tracking and start extracting the source documents.Both libraries available. Let me extract all the .docx files to text so I can read them.Let me read the core structure and deal documents first.Excellent detail. Let me read the rest of the post-acquisition structure and the key tax opinions / DD report.Let me read the rest of the Swedish opinion (the critical interest deduction conclusions), plus the German and Singapore opinions and the DD report.Let me read the rest of the German opinion and the Singapore opinion and DD report.Let me read the rest of the German opinion, the Singapore opinion conclusion, the DD report, and the financial model tax analysis tab.Let me read the remaining German opinion (Step 5 merger + summary), the DD report, and the financial model tax analysis tab.Let me read the rest of the tax analysis tab data tables and the DD report.I have a comprehensive picture. Let me read a few remaining key docs: the post-close integration plan, DAC6 memo, SPA (tax provisions), and RWI binder.I now have a comprehensive understanding of the deal. Let me update my tracking and start building the deliverables.Now let me build the tax-cost-model.xlsx with a comprehensive Python script.Let me verify the model opens correctly.Model built successfully. Now let me build the action-item-tracker.xlsx.Both Excel files built. Now let me build the tax-structure-memo.docx.Let me fix the RAG coloring to handle "GREEN (monitor)".All three deliverables built. Now let me write the output/answer.md analysis.Now let me verify all deliverables and run a final review.All four deliverables are verified and in place. Let me mark the work complete.All four deliverables are complete and verified:
+
+## Deliverables
+
+| File | Contents |
+|---|---|
+| **`tax-structure-memo.docx`** | 14-section memorandum (112 paragraphs, 14 tables): executive summary, transaction & structure, jurisdiction-by-jurisdiction analysis (US/LU/NL/SE/DE/SG), debt placement, WHT & treaty analysis, tax attributes, transfer pricing, post-close restructuring (Step 5 merger + Irish IP), DAC6, Pillar Two, ETR, evidence gaps, implementation controls, assumptions + source-map appendix. Privileged/confidential banner throughout. |
+| **`tax-cost-model.xlsx`** | 11 tabs: Cover, Assumptions, Tax Cost Waterfall (as-modelled vs corrected), Interest Limitations (Sweden EBITDA rule + German Zinsschranke), Withholding Tax matrix + substance sensitivity, Effective Tax Rate, Tax Attributes (NOLs/§8c/fiscal unity), Pillar Two, Debt Sourcing options, Risk Register, Evidence Gaps. Formula-driven with input cells shaded. |
+| **`action-item-tracker.xlsx`** | 3 tabs: Summary, Action Items (42 items keyed A-001…A-705 with owner/deadline/status/priority/phase/dependency/source), Pre-Closing Checklist (12 condition precedents). Auto-filter enabled. |
+| **`output/answer.md`** | Complete analysis (12 sections, 36 tables): deal snapshot, headline conclusions, jurisdictional analysis, key calculations (waterfall, interest limitations, WHT, §8c, fiscal unity, Pillar Two, ETR), debt placement, post-close restructuring, DAC6, evidence gaps, implementation controls, risk register, assumptions. |
+
+## Key findings surfaced
+
+- **Two material model errors corrected:** Singapore 5%→17% (Pioneer expired 31 Dec 2023) and Swedish interest disallowance (SEK 0 using consolidated EBITDA → SEK 2–14M/yr using standalone entity EBITDA per Doc 7). Combined ~EUR 4.2M six-year incremental tax — requires IRR/MOIC re-underwriting.
+- **Debt placement recommendation:** retain EUR 155M at MCP BidCo BV (Netherlands); offset via Dutch fiscal unity (~EUR 2.76M/yr saving). Avoids Swedish entity-level EBITDA trap and satisfies lender CP #9.
+- **German §8c:** EUR 24.0M losses (EUR 3.8M tax value) forfeited on closing — Stille Reserven analysis outstanding (critical pre-signing gap).
+- **Nordenvik BV substance deficiency:** 4 employees, no DEMPE functions — risks to participation exemption, treaty benefits, fiscal unity, and Innovation Box.
+- **16 evidence gaps / source-document inconsistencies** catalogued (entity register, sponsor name, headcount, royalty rates, EBITDA figures, DAC6 incompleteness, §22 UmwStG lock-up, Irish migration gaps).
+- **42 tracked action items** with owners, deadlines, dependencies, and source references.
+
+All deliverables preserve source facts distinct from modeled assumptions/recommendations, flag positions requiring confirmation rather than presenting them as final, and carry an appropriate confidential/attorney work-product disclaimer.
+Let me add a descriptive sentence using "risk matrix" before the table.Now let me verify both exact phrases are present.Both exact phrases are now present in `output/answer.md`:
+
+1. **`SEK 187 million`** — line 35 (headline conclusion #5): "Swedish NOLs of SEK 187 million (DTA SEK 38.5M) survive."
+2. **`Risk Matrix (quantified)`** — line 262 (heading renamed from "Risk register (quantified)"), with the descriptive sentence on line 264 using the phrase **`risk matrix`**: "The risk matrix below quantifies the principal tax exposures by jurisdiction, annual amount, probability, and expected value."
+
+All other facts and the other three deliverables (`tax-structure-memo.docx`, `tax-cost-model.xlsx`, `action-item-tracker.xlsx`) remain unchanged.

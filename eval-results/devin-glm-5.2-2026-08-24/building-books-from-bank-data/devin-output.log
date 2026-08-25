@@ -1,0 +1,46 @@
+I'll start by exploring the workspace structure and understanding the source documents available.Let me invoke the relevant skill and examine all source documents in parallel.Let me read the skill references and the source documents. First, let me check what's in the skill directory and read the Excel/PDF files.Now let me read the Excel files and PDF review notes. Let me check what Python libraries are available and read all the documents.
+Error: Agent error: Connection error, send a message to continue retrying: {
+  "cognition.ai/errorKind": "unavailable",
+  "cognition.ai/retryable": true
+}
+I'll start by exploring the project structure and source documents to understand what we're working with.Let me look at the project skill and explore all the source documents in parallel.The skill references an APEX AR reconciliation case that matches this task. Let me read the skill references and all source documents.I have the tools I need. Let me read the skill references and all source documents in parallel.Excellent. Now I have both review memos. Let me read all the data files and skill references to verify every figure.Now let me read the primary source data files - the Clio CSV, QBO aging summary, and QBO GL detail.Now let me analyze the Clio data comprehensively and read the QBO GL detail to verify the journal entries.Now let me examine the QBO GL detail for the key journal entries and AR account balance.Critical findings. Let me now check the final AR running balance in the GL, find the write-off entries, and look for Bad Debt Expense accounts.This is very revealing. The GL AR ending balance is $1,729,138.00 (matching Clio exactly), and all write-offs post to account 4900, not Bad Debt Expense. Let me now calculate per-matter GL AR balances to verify the Northbridge situation precisely.This is a critical finding. The GL AR running balance is $1,729,138.00 (matching Clio), and the per-matter GL balances confirm the Bayshore $125 error. The aging total differs from the GL by exactly $125 (Bayshore), which means the aging already reflects the Northbridge IOLTA transfer. Let me verify the December write-down/write-off totals from the GL and confirm all findings.Let me verify the $6,125 discrepancy between the December entry sum and the running balance difference for account 4900.Important finding - there's a non-invoice YE adjustment (JE-AJE-02, $6,125.00 WIP realization haircut) in account 4900. The invoice-related December total is $126,770.82, matching Clio exactly. Let me check the JE-AJE-02 entry and also verify the JE-OB-000919 entry (the last AR credit).I now have all the evidence needed. Let me do one final verification of the December write-down total and the complete matter-level comparison.All findings are verified. The raw Clio vs raw Aging comparison shows only ONE variance: Bayshore ($125.00). Now let me write the comprehensive analysis to `output/answer.md`.The analysis is complete. Here is a summary of the findings, shared in the console as requested:
+
+## Results
+
+**Correct total AR balance per QBO: $1,729,138.00**
+- QBO Aging Summary (raw): $1,729,013.00
+- Add: Bayshore subledger error correction: +$125.00
+- Corrected QBO AR: $1,729,138.00
+- Confirmed by GL account 1100 ending running balance: $1,729,138.00
+
+**Clio outstanding balance: $1,729,138.00** (sum of `outstanding_balance` across 243 invoice rows)
+
+**Total-level variance: $0.00** — fully reconciled.
+
+## Matter-level variance evaluation
+
+| Matter | Draft Variance | Correct Variance | Verdict |
+|--------|---------------|-----------------|---------|
+| Bayshore (M-2024-0005) | $125.00 | $125.00 | **Valid** — known subledger error; GL correct at $23,818.10 |
+| Northbridge (M-2024-0009) | $8,773.31 | $0.00 | **Incorrect** — aging already reflects the IOLTA transfer; GL AR balance confirms |
+| Cascade Foods (M-2024-0020) | $7,059.28 | $0.00 | **Incorrect** — Clio already reflects the write-down in `total_invoice` |
+
+The raw Clio vs raw Aging comparison across all 32 matters shows only ONE variance: Bayshore at $125.00. Both Rachel and David incorrectly endorsed adjustments for Northbridge and Cascade that created fictitious variances.
+
+## Correct December write-down and write-off totals
+
+| Category | Draft | Controller | Correct |
+|----------|-------|-----------|---------|
+| Write-Downs | $126,770.82 | $109,534.63 | **$125,873.38** |
+| Write-Offs | $0.00 | $17,236.19 | **$897.44** |
+| Total | $126,770.82 | $126,770.82 | $126,770.82 |
+
+- Rachel's blanket combination is wrong — write-offs must be tracked separately.
+- David's split is directionally correct but his $17,236.19 is the **year-total** write-off (5 invoices across March, November, December), not December. Only $897.44 of write-offs occurred on December-dated invoices (INV-2024-0226, Hartwell Construction).
+- The correct split: $125,873.38 write-downs + $897.44 write-offs = $126,770.82, verified against GL account 4900 December invoice entries.
+
+## Final reconciliation
+
+**Status: RECONCILED.** Net unresolved variance: $0.00. The draft's reported $15,832.59 unresolved variance was entirely fabricated by two incorrect adjustments ($8,773.31 + $7,059.28) that have been removed.
+
+The complete analysis with calculations, evidence, evidence gaps, and implementation controls has been written to `output/answer.md`.

@@ -1,0 +1,8 @@
+topic,status,reason,missing_evidence,estimated_amount,source_url,owner
+home office,review,Profile states a home office,Exclusive and regular use plus square footage,,https://www.irs.gov/forms-pubs/about-form-8829,CPA
+self-employed retirement plan,review,Contribution and plan statement are present,Contribution character compensation limit and plan terms,,https://www.irs.gov/publications/p560,CPA
+charitable contributions,review,Receipts and amount are present,AGI limits itemization and organization qualification,,https://www.irs.gov/publications/p526,CPA
+self-employed health insurance,review,Premium amount is present,Eligibility earned income and other coverage interaction,,https://www.irs.gov/,CPA
+startup costs,review,Startup invoices are present,Active business date allocation and election,,https://www.irs.gov/publications/p583,CPA
+mixed-use vehicle,review,Vehicle and 30 percent business use are present,Current method limits and form calculation,,https://www.irs.gov/publications/p946,analyzing-asset-depreciation
+hacked business account,review,Unreimbursed business account loss is stated,State-law theft classification and final treatment,,https://www.irs.gov/instructions/i4684,determining-tax-loss-treatment

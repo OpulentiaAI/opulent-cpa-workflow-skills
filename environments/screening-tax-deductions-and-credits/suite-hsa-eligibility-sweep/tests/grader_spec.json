@@ -1,0 +1,48 @@
+{
+  "output_file": "output/answer.md",
+  "min_chars": 250,
+  "required_groups": [
+    [
+      "$3,600",
+      "3600"
+    ],
+    [
+      "$16,500",
+      "16500"
+    ],
+    [
+      "6 eligible months",
+      "six eligible months"
+    ],
+    [
+      "$4,875",
+      "4875"
+    ],
+    [
+      "$2,875",
+      "2875"
+    ],
+    [
+      "$9,750",
+      "9750"
+    ],
+    [
+      "$7,750",
+      "7750"
+    ],
+    [
+      "December 31, 2027"
+    ],
+    [
+      "10%"
+    ],
+    [
+      "$3,200",
+      "3200"
+    ],
+    [
+      "no double benefit",
+      "no-double-benefit"
+    ]
+  ]
+}

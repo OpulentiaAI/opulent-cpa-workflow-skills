@@ -1,0 +1,235 @@
+{
+  "evaluation": "Eight Opulent tax workflow skills run end to end with Devin CLI",
+  "date": "2026-08-24",
+  "requested_model": "glm-5-2",
+  "reported_model": "GLM-5.2 High",
+  "pricing_tier_confirmed_by_cli": "Free",
+  "paid_model_used": false,
+  "accepted_runs": 8,
+  "perfect_rewards": 8,
+  "hidden_checks_passed": 94,
+  "hidden_checks_total": 94,
+  "workbook_sheets_rendered_and_inspected": 30,
+  "docx_pages_rendered_and_inspected": 12,
+  "runs": [
+    {
+      "skill": "classifying-expenses-for-tax",
+      "case": "apex-client-cost-classification",
+      "session_id": "picayune-dirigible",
+      "model_name": "GLM-5.2 High",
+      "generation_model": "glm-5-2",
+      "reward": 1.0,
+      "checks_passed": 11,
+      "checks_total": 11,
+      "deliverables": {
+        "output/answer.md": {
+          "size_bytes": 20534,
+          "sha256": "23c881bd221e11767e7dc3a63d341bb33c3a76a162bc26cbc951084f45d4edd4",
+          "integrity": "nonempty Markdown"
+        }
+      }
+    },
+    {
+      "skill": "building-books-from-bank-data",
+      "case": "apex-ar-reconciliation",
+      "session_id": "stream-drum",
+      "model_name": "GLM-5.2 High",
+      "generation_model": "glm-5-2",
+      "reward": 1.0,
+      "checks_passed": 11,
+      "checks_total": 11,
+      "deliverables": {
+        "output/answer.md": {
+          "size_bytes": 22413,
+          "sha256": "0f202ac63245ee87b6abfc3b7a1534a8f21dee9d417980fec736fb78fdb14e7d",
+          "integrity": "nonempty Markdown"
+        }
+      }
+    },
+    {
+      "skill": "analyzing-asset-depreciation",
+      "case": "suite-property-use-tax-model",
+      "session_id": "lime-sand",
+      "model_name": "GLM-5.2 High",
+      "generation_model": "glm-5-2",
+      "reward": 1.0,
+      "checks_passed": 12,
+      "checks_total": 12,
+      "deliverables": {
+        "output/answer.md": {
+          "size_bytes": 13374,
+          "sha256": "defe591889b5cfd076a343d6c7d8be606cea517dc9a8762418abf11c3fae99cd",
+          "integrity": "nonempty Markdown"
+        },
+        "augusta_rule_execution_memo.md": {
+          "size_bytes": 11764,
+          "sha256": "a2a99b068a79573786c6f2c5f6bacc4866407777cd4740905efc663fb6acc883",
+          "integrity": "nonempty Markdown"
+        },
+        "rental_event_log.xlsx": {
+          "size_bytes": 10718,
+          "sha256": "d0cc9aeb1fd69bd7d357919cd40d5d9648e3a4fdd0aadfe27ec203b70d76310e",
+          "integrity": "valid Office Open XML archive"
+        }
+      }
+    },
+    {
+      "skill": "handling-multistate-income",
+      "case": "suite-cross-border-jurisdiction-map",
+      "session_id": "crocus-bathroom",
+      "model_name": "GLM-5.2 High",
+      "generation_model": "glm-5-2",
+      "reward": 1.0,
+      "checks_passed": 13,
+      "checks_total": 13,
+      "deliverables": {
+        "output/answer.md": {
+          "size_bytes": 25126,
+          "sha256": "111785203822d4a9fab1810de1299d12ee85ce092f01a276832eec4146afaeac",
+          "integrity": "nonempty Markdown"
+        },
+        "tax-structure-memo.docx": {
+          "size_bytes": 54567,
+          "sha256": "97956d7a96513c244d648caf496fcfd4ac1aabd3a4bf9d0aaf5c636496a53b7c",
+          "integrity": "valid Office Open XML archive"
+        },
+        "tax-cost-model.xlsx": {
+          "size_bytes": 31487,
+          "sha256": "4d52eb174d0be735e0c97da866766845a9d0249ca6315d0ca28f2e4ae5e7606b",
+          "integrity": "valid Office Open XML archive"
+        },
+        "action-item-tracker.xlsx": {
+          "size_bytes": 15366,
+          "sha256": "68c03e937df6e35127f4c280c53d0d3e1edb9b060ec99ca670e5fa1e1e5e14ff",
+          "integrity": "valid Office Open XML archive"
+        }
+      }
+    },
+    {
+      "skill": "determining-tax-loss-treatment",
+      "case": "apex-settlement-holdback",
+      "session_id": "celestial-emoji",
+      "model_name": "GLM-5.2 High",
+      "generation_model": "glm-5-2",
+      "reward": 1.0,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "deliverables": {
+        "output/answer.md": {
+          "size_bytes": 18926,
+          "sha256": "27ddfc12c9b1ba2dc366d567a82bdd8b840dd0b77cffc466cadcbfbc7e6ad6e2",
+          "integrity": "nonempty Markdown"
+        },
+        "output/event.json": {
+          "size_bytes": 808,
+          "sha256": "3e963662d32bb71fccd54a5afb894eefbc585384500e51e3d8b64100d8c9aa8d",
+          "integrity": "valid JSON"
+        },
+        "output/event_facts.json": {
+          "size_bytes": 658,
+          "sha256": "c587c4298b2646c73dc66f2747e484004fa6e9555c2a0ad6da27442a697ca87a",
+          "integrity": "valid JSON"
+        },
+        "output/evidence_request.csv": {
+          "size_bytes": 1367,
+          "sha256": "bfc4fcd8cb7f8d17c4dbf8aa1bb570eb65f45bcec10d93a0e35a1c01e32ed99f",
+          "integrity": "valid CSV",
+          "row_count": 6
+        },
+        "output/form_map.csv": {
+          "size_bytes": 754,
+          "sha256": "fa7fba4aa7255912775000769125529ccb3854013310e6d20f9c990e6183624e",
+          "integrity": "valid CSV",
+          "row_count": 6
+        },
+        "output/treatment_matrix.csv": {
+          "size_bytes": 1606,
+          "sha256": "a5127367056540caa62e24f79d9393e18f514b58ce7f9eb71104fb355cd08071",
+          "integrity": "valid CSV",
+          "row_count": 7
+        }
+      }
+    },
+    {
+      "skill": "screening-tax-deductions-and-credits",
+      "case": "suite-hsa-eligibility-sweep",
+      "session_id": "cookie-ethernet",
+      "model_name": "GLM-5.2 High",
+      "generation_model": "glm-5-2",
+      "reward": 1.0,
+      "checks_passed": 12,
+      "checks_total": 12,
+      "deliverables": {
+        "output/answer.md": {
+          "size_bytes": 14268,
+          "sha256": "619de2daa1a01fe48c668bb91ab9d6ad5fe9065463094b51f180c8fdd2933c87",
+          "integrity": "nonempty Markdown"
+        },
+        "hsa_eligibility_funding_memo.md": {
+          "size_bytes": 6541,
+          "sha256": "b81b31ae25e1f8fcea3e402cf56767d434bba681906f3a6c008a10429c6f5118",
+          "integrity": "nonempty Markdown"
+        },
+        "hsa_contribution_schedule.xlsx": {
+          "size_bytes": 11199,
+          "sha256": "78666c5fe2e837179c8a5bfd1fe5e203af0d69eabed763a2d3e158e75ec2f4c6",
+          "integrity": "valid Office Open XML archive"
+        }
+      }
+    },
+    {
+      "skill": "creating-custom-document-requests",
+      "case": "suite-owner-child-records-plan",
+      "session_id": "free-helium",
+      "model_name": "GLM-5.2 High",
+      "generation_model": "glm-5-2",
+      "reward": 1.0,
+      "checks_passed": 13,
+      "checks_total": 13,
+      "deliverables": {
+        "output/answer.md": {
+          "size_bytes": 14125,
+          "sha256": "25434ae258d33316b971a83eb410383c6540c86903a2ea9cd48c0176b5c025a1",
+          "integrity": "nonempty Markdown"
+        },
+        "child_employment_memo.md": {
+          "size_bytes": 13756,
+          "sha256": "fc64aad01a61d1a009244f73588974344b2245a13476c21dfbafc80640c48c6f",
+          "integrity": "nonempty Markdown"
+        },
+        "child_payroll_schedule.xlsx": {
+          "size_bytes": 12940,
+          "sha256": "b45f82d7a394ed283554ab9ccdc5131c7c2809ba057c3d4356b66aa9981ce645",
+          "integrity": "valid Office Open XML archive"
+        }
+      }
+    },
+    {
+      "skill": "writing-client-tax-memos",
+      "case": "suite-solo-401k-client-memo",
+      "session_id": "cookie-city",
+      "model_name": "GLM-5.2 High",
+      "generation_model": "glm-5-2",
+      "reward": 1.0,
+      "checks_passed": 12,
+      "checks_total": 12,
+      "deliverables": {
+        "output/answer.md": {
+          "size_bytes": 13359,
+          "sha256": "976bc0063c064c4c578c75cbe96556638c9a72eea81c31112bfd8dfa791c310d",
+          "integrity": "nonempty Markdown"
+        },
+        "solo_401k_execution_memo.md": {
+          "size_bytes": 10602,
+          "sha256": "34f2e10f65d905904db396a5c6517ab03c27f849dfdc9122e2000b34b4f6ad15",
+          "integrity": "nonempty Markdown"
+        },
+        "solo_401k_contribution_workbook.xlsx": {
+          "size_bytes": 11544,
+          "sha256": "4652d74f3d076a7480c386ffbc96d63ce59fb0efe63cf169069d9e47a193413f",
+          "integrity": "valid Office Open XML archive"
+        }
+      }
+    }
+  ]
+}

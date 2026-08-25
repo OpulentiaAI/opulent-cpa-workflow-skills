@@ -1,0 +1,13 @@
+{
+  "tax_year": 2025,
+  "filing_profile": "high-earning individual with new Schedule C activity",
+  "facts": [
+    {"topic": "home office", "present": true, "amount": null, "evidence_status": "exclusive-use and square-footage facts missing"},
+    {"topic": "self-employed retirement plan", "present": true, "amount": 30000.00, "evidence_status": "plan statement present; contribution character and limits need review"},
+    {"topic": "charitable contributions", "present": true, "amount": 2500.00, "evidence_status": "receipts present; return interaction needs review"},
+    {"topic": "self-employed health insurance", "present": true, "amount": 12000.00, "evidence_status": "premium statement present; eligibility and limit need review"},
+    {"topic": "startup costs", "present": true, "amount": 7000.00, "evidence_status": "invoices present; start date and election need review"},
+    {"topic": "mixed-use vehicle", "present": true, "amount": 65000.00, "evidence_status": "mileage log shows 30 percent business use"},
+    {"topic": "hacked business account", "present": true, "amount": 40000.00, "evidence_status": "state-law theft classification missing"}
+  ]
+}

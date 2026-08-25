@@ -1,0 +1,26 @@
+{
+  "skill": "classifying-expenses-for-tax",
+  "case_id": "apex-client-cost-classification",
+  "fit": "direct domain calibration",
+  "import_mode": "apex-exact",
+  "source_repo": "apex-accounting",
+  "source_remote": "https://huggingface.co/datasets/mercor/apex-accounting",
+  "source_commit": "bf5e8c99117b7ee763d79ad2c64563ac844d77d2",
+  "source_task": "tasks/world_9_task_14.json",
+  "upstream_id": "task_8654129a5aac4ca583a47ffcdea8ebc0",
+  "dataset": "Mercor APEX-Accounting Dev Set",
+  "source_files": {
+    "environment/source_docs/workpaper_client_cost_advance_ledger_2024.xlsx": "5cc6fda2a9ef7e0817e7b0683f54e298edf9b53dec57c12085dd8067c1674de8",
+    "environment/source_docs/qbo_general_ledger_detail_2024.xlsx": "b4a3c89af55251d38c1de84143b9280861ed18b7e950c19ad801979aa804b862",
+    "environment/source_docs/engagement_letter_summary_2024.xlsx": "6aa9ab3a04a8ebb78061c923105b019ad2cd426d374b6a20ee169c78d409b2f9",
+    "environment/source_docs/clio_billing_export_2024.csv": "5034f36aad706a2ba501b4683aae90e81afbc0cbc863ceb80a339641b8c85879",
+    "environment/source_docs/iolta_bank_transactions.csv": "b1af60cf4ecc88e13915d4c5238188bacf43c35473cf14b2963101370e5710e8",
+    "environment/source_docs/workpaper_whitfield_settlement_summary.xlsx": "2dc7e74c8b6016a20829dc082c8d4265a039b751e17013ef3501385ac698cb83",
+    "environment/source_docs/Whitfield_Contingency_Cost_Recovery_Addendum.pdf": "44c7b8fcf19b0d43a8a9231784c250b2c540d6ac364f1d20c07e62d6e5b857a8"
+  },
+  "hidden_from_agent": [
+    "tests/rubric.json",
+    "tests/grader_spec.json",
+    "solution/reference_answer.md"
+  ]
+}

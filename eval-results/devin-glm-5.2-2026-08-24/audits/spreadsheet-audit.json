@@ -1,0 +1,164 @@
+{
+  "workbooks": 6,
+  "sheets_rendered_and_inspected": 30,
+  "formula_records_scanned": 206,
+  "formula_error_matches": 0,
+  "details": [
+    {
+      "input": "/tmp/opulent-devin-glm52.nZuMql/analyzing-asset-depreciation/rental_event_log.xlsx",
+      "size_bytes": 10718,
+      "sha256": "d0cc9aeb1fd69bd7d357919cd40d5d9648e3a4fdd0aadfe27ec203b70d76310e",
+      "sheet_names": [
+        "Event Log",
+        "Sources & Assumptions"
+      ],
+      "formula_record_count": 82,
+      "error_records": [
+        {
+          "kind": "notice",
+          "message": "Cell search matched 0 entries."
+        }
+      ],
+      "renders": [
+        "workbook-renders/rental_event_log/Event_Log.png",
+        "workbook-renders/rental_event_log/Sources_Assumptions.png"
+      ]
+    },
+    {
+      "input": "/tmp/opulent-devin-glm52-r2.lO8OBs/handling-multistate-income/tax-cost-model.xlsx",
+      "size_bytes": 31487,
+      "sha256": "4d52eb174d0be735e0c97da866766845a9d0249ca6315d0ca28f2e4ae5e7606b",
+      "sheet_names": [
+        "Cover",
+        "Assumptions",
+        "Tax Cost Waterfall",
+        "Interest Limitations",
+        "Withholding Tax",
+        "Effective Tax Rate",
+        "Tax Attributes",
+        "Pillar Two",
+        "Debt Sourcing",
+        "Risk Register",
+        "Evidence Gaps"
+      ],
+      "formula_record_count": 31,
+      "error_records": [
+        {
+          "kind": "notice",
+          "message": "Cell search matched 0 entries."
+        }
+      ],
+      "renders": [
+        "workbook-renders/tax-cost-model/Cover.png",
+        "workbook-renders/tax-cost-model/Assumptions.png",
+        "workbook-renders/tax-cost-model/Tax_Cost_Waterfall.png",
+        "workbook-renders/tax-cost-model/Interest_Limitations.png",
+        "workbook-renders/tax-cost-model/Withholding_Tax.png",
+        "workbook-renders/tax-cost-model/Effective_Tax_Rate.png",
+        "workbook-renders/tax-cost-model/Tax_Attributes.png",
+        "workbook-renders/tax-cost-model/Pillar_Two.png",
+        "workbook-renders/tax-cost-model/Debt_Sourcing.png",
+        "workbook-renders/tax-cost-model/Risk_Register.png",
+        "workbook-renders/tax-cost-model/Evidence_Gaps.png"
+      ]
+    },
+    {
+      "input": "/tmp/opulent-devin-glm52-r2.lO8OBs/handling-multistate-income/action-item-tracker.xlsx",
+      "size_bytes": 15366,
+      "sha256": "68c03e937df6e35127f4c280c53d0d3e1edb9b060ec99ca670e5fa1e1e5e14ff",
+      "sheet_names": [
+        "Summary",
+        "Action Items",
+        "Pre-Closing Checklist"
+      ],
+      "formula_record_count": 4,
+      "error_records": [
+        {
+          "kind": "notice",
+          "message": "Cell search matched 0 entries."
+        }
+      ],
+      "renders": [
+        "workbook-renders/action-item-tracker/Summary.png",
+        "workbook-renders/action-item-tracker/Action_Items.png",
+        "workbook-renders/action-item-tracker/Pre-Closing_Checklist.png"
+      ]
+    },
+    {
+      "input": "/tmp/opulent-devin-glm52-r2.lO8OBs/screening-tax-deductions-and-credits/hsa_contribution_schedule.xlsx",
+      "size_bytes": 11199,
+      "sha256": "78666c5fe2e837179c8a5bfd1fe5e203af0d69eabed763a2d3e158e75ec2f4c6",
+      "sheet_names": [
+        "Eligibility",
+        "Contributions",
+        "Dental Reimbursement",
+        "Sources & Assumptions"
+      ],
+      "formula_record_count": 19,
+      "error_records": [
+        {
+          "kind": "notice",
+          "message": "Cell search matched 0 entries."
+        }
+      ],
+      "renders": [
+        "workbook-renders/hsa_contribution_schedule/Eligibility.png",
+        "workbook-renders/hsa_contribution_schedule/Contributions.png",
+        "workbook-renders/hsa_contribution_schedule/Dental_Reimbursement.png",
+        "workbook-renders/hsa_contribution_schedule/Sources_Assumptions.png"
+      ]
+    },
+    {
+      "input": "/tmp/opulent-devin-glm52.nZuMql/creating-custom-document-requests/child_payroll_schedule.xlsx",
+      "size_bytes": 12940,
+      "sha256": "b45f82d7a394ed283554ab9ccdc5131c7c2809ba057c3d4356b66aa9981ce645",
+      "sheet_names": [
+        "Inputs",
+        "Wage Calculation",
+        "Payroll Taxes",
+        "Income Tax & Roth",
+        "Payroll Schedule",
+        "Sources & Assumptions"
+      ],
+      "formula_record_count": 53,
+      "error_records": [
+        {
+          "kind": "notice",
+          "message": "Cell search matched 0 entries."
+        }
+      ],
+      "renders": [
+        "workbook-renders/child_payroll_schedule/Inputs.png",
+        "workbook-renders/child_payroll_schedule/Wage_Calculation.png",
+        "workbook-renders/child_payroll_schedule/Payroll_Taxes.png",
+        "workbook-renders/child_payroll_schedule/Income_Tax_Roth.png",
+        "workbook-renders/child_payroll_schedule/Payroll_Schedule.png",
+        "workbook-renders/child_payroll_schedule/Sources_Assumptions.png"
+      ]
+    },
+    {
+      "input": "/tmp/opulent-devin-glm52.nZuMql/writing-client-tax-memos/solo_401k_contribution_workbook.xlsx",
+      "size_bytes": 11544,
+      "sha256": "4652d74f3d076a7480c386ffbc96d63ce59fb0efe63cf169069d9e47a193413f",
+      "sheet_names": [
+        "Inputs",
+        "Contribution Model",
+        "Deadlines",
+        "Sources & Assumptions"
+      ],
+      "formula_record_count": 17,
+      "error_records": [
+        {
+          "kind": "notice",
+          "message": "Cell search matched 0 entries."
+        }
+      ],
+      "renders": [
+        "workbook-renders/solo_401k_contribution_workbook/Inputs.png",
+        "workbook-renders/solo_401k_contribution_workbook/Contribution_Model.png",
+        "workbook-renders/solo_401k_contribution_workbook/Deadlines.png",
+        "workbook-renders/solo_401k_contribution_workbook/Sources_Assumptions.png"
+      ]
+    }
+  ]
+}

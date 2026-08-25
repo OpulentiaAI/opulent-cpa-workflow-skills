@@ -1,0 +1,13 @@
+{
+  "tax_year": 2025,
+  "event_type": "unauthorized account transfers",
+  "account_use": "business operating account",
+  "date_discovered": "2025-07-01",
+  "gross_loss": 45000.00,
+  "reimbursements_received": 5000.00,
+  "other_recovery_prospect": 0.00,
+  "bank_claim_status": "final denial for remaining amount",
+  "police_report": "filed",
+  "state_law_theft_classification": "unknown",
+  "profit_motive": "business operations"
+}

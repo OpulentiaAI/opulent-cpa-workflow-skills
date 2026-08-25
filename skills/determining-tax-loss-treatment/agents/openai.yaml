@@ -1,0 +1,3 @@
+interface:
+  display_name: "Determining Tax Loss Treatment"
+  short_description: "Analyze theft, fraud, casualty, and unusual losses"

@@ -1,0 +1,97 @@
+{
+  "reward": 1.0,
+  "checks_passed": 11,
+  "checks_total": 11,
+  "output_file": "/tmp/opulent-devin-glm52-r2.lO8OBs/building-books-from-bank-data/output/answer.md",
+  "checks": [
+    {
+      "name": "minimum_content",
+      "passed": true
+    },
+    {
+      "name": "required_group_1",
+      "passed": true,
+      "alternatives": [
+        "$1,729,138.00",
+        "$1,729,138",
+        "1729138"
+      ]
+    },
+    {
+      "name": "required_group_2",
+      "passed": true,
+      "alternatives": [
+        "$125.00",
+        "$125",
+        "125"
+      ]
+    },
+    {
+      "name": "required_group_3",
+      "passed": true,
+      "alternatives": [
+        "$23,818.10",
+        "$23,818.10",
+        "23818.10"
+      ]
+    },
+    {
+      "name": "required_group_4",
+      "passed": true,
+      "alternatives": [
+        "$22,010.66",
+        "$22,010.66",
+        "22010.66"
+      ]
+    },
+    {
+      "name": "required_group_5",
+      "passed": true,
+      "alternatives": [
+        "$77,588.63",
+        "$77,588.63",
+        "77588.63"
+      ]
+    },
+    {
+      "name": "required_group_6",
+      "passed": true,
+      "alternatives": [
+        "$125,873.38",
+        "$125,873.38",
+        "125873.38"
+      ]
+    },
+    {
+      "name": "required_group_7",
+      "passed": true,
+      "alternatives": [
+        "$897.44",
+        "897.44"
+      ]
+    },
+    {
+      "name": "required_group_8",
+      "passed": true,
+      "alternatives": [
+        "Clio"
+      ]
+    },
+    {
+      "name": "required_group_9",
+      "passed": true,
+      "alternatives": [
+        "QBO",
+        "QuickBooks"
+      ]
+    },
+    {
+      "name": "required_group_10",
+      "passed": true,
+      "alternatives": [
+        "reconcile",
+        "reconciliation"
+      ]
+    }
+  ]
+}

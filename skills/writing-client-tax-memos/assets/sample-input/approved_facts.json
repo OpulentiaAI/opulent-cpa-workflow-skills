@@ -1,0 +1,15 @@
+{
+  "tax_year": 2025,
+  "audience": "vehicle owner with Schedule C consulting activity",
+  "approval_status": "CPA-approved synthetic fixture",
+  "facts": [
+    {"fact_id": "F001", "claim": "Vehicle tax basis is $65,000.", "value": "$65,000", "source_url": "https://www.irs.gov/publications/p946", "workpaper_ref": "asset facts"},
+    {"fact_id": "F002", "claim": "Business miles are 6,000 and total miles are 20,000.", "value": "6,000 and 20,000", "source_url": "https://www.irs.gov/publications/p463", "workpaper_ref": "mileage log"},
+    {"fact_id": "F003", "claim": "Qualified business use is 30 percent.", "value": "30 percent", "source_url": "https://www.irs.gov/publications/p946", "workpaper_ref": "business-use calculation"},
+    {"fact_id": "F004", "claim": "The predominant-use test requires more than 50 percent qualified business use.", "value": "more than 50 percent", "source_url": "https://www.irs.gov/publications/p946", "workpaper_ref": "eligibility analysis"},
+    {"fact_id": "F005", "claim": "The fixture current-year deduction is $1,950.", "value": "$1,950", "source_url": "https://www.irs.gov/publications/p946", "workpaper_ref": "approved fixture schedule"},
+    {"fact_id": "F006", "claim": "The fixture counterfactual at 100 percent use is $6,500 under the same sample method.", "value": "$6,500", "source_url": "https://www.irs.gov/publications/p946", "workpaper_ref": "counterfactual"}
+  ],
+  "open_items": ["CPA must replace the synthetic fixture method before any filing."],
+  "client_action": "Keep a complete mileage log and send any missing trips to the CPA."
+}

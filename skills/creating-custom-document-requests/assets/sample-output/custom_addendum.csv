@@ -1,0 +1,6 @@
+request_id,cue_id,topic,document_or_fact,period,reason,priority
+R101,C001,retirement plan,Plan document year-end statement and 2025 contribution records,2025,Review plan type contribution character and limits,high
+R102,C002,vehicle,Purchase agreement and complete mileage log separating business commuting and personal use,2025,Establish basis business use and depreciation method,high
+R103,C003,multistate work,Arizona 1099s contracts and workday or service-location calendar,2025,Source income and review state filing,high
+R104,C004,home office,Exclusive-use description plus office and total home square footage,2025,Review home-office eligibility and allocation,medium
+R105,C005,hacked account,Bank statements police report claim correspondence and recovery records,2025,Measure and classify the unusual loss,high

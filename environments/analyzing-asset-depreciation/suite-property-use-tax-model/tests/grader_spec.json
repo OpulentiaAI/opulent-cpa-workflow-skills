@@ -1,0 +1,50 @@
+{
+  "output_file": "output/answer.md",
+  "min_chars": 250,
+  "required_groups": [
+    [
+      "$288",
+      "288"
+    ],
+    [
+      "$363",
+      "363"
+    ],
+    [
+      "$385",
+      "385"
+    ],
+    [
+      "$553",
+      "553"
+    ],
+    [
+      "$754",
+      "754"
+    ],
+    [
+      "$5,390",
+      "5390"
+    ],
+    [
+      "14 days",
+      "14-day",
+      "14 \u00d7"
+    ],
+    [
+      "280A(g)"
+    ],
+    [
+      "section 162",
+      "Section 162"
+    ],
+    [
+      "related-party",
+      "related party"
+    ],
+    [
+      "event log",
+      "Event Log"
+    ]
+  ]
+}

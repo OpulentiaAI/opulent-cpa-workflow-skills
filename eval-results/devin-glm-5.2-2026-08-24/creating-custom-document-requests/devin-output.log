@@ -1,0 +1,22 @@
+I'll start by invoking the matching skill and exploring the source documents in parallel.Let me read all source documents and the skill's reference files in parallel.Let me read the skill references and check for the related environment suite.Now I have a clear picture. Let me set up my task plan and verify a couple of facts before building deliverables.Confirmed: 2026 Roth IRA limit is $7,500 (IRS IR-2025-111 / Notice 2025-67). Since Arjun's earned income ($2,880) is the binding constraint, Roth capacity = $2,880. Now building the deliverables.Now let me create the memo deliverable.Now let me create the Excel workbook with formulas and a Sources & Assumptions sheet.Let me verify the workbook preserves formulas and check the computed values by recalculating with LibreOffice if available.I found formula bugs. The Income Tax sheet references the median rate cell (`B7`) instead of the wages cell (`B9`), and the Roth capacity formula points to the wrong cells. Let me fix the build script.Now fix the Payroll Taxes sheet to reference the wages cell (`B9`) instead of the rate cell (`B7`):Now regenerate and verify formulas compute correctly using LibreOffice headless recalculation:All key values compute correctly. One logic bug: "Budget vs. reasonable wages" computes `B10-B7` (budget minus median rate) instead of `B10-B9` (budget minus reasonable wages). Let me fix that.Workbook is correct. Now let me write the `output/answer.md` analysis.Now let me verify all deliverables are in place and do a final check.All deliverables are complete and verified. Let me mark the final task done.All three deliverables are complete and verified.
+
+## Summary
+
+I read all files in `source_docs/` (client facts, calculation inputs, official guidance), applied the cited 2026 federal rules, and produced:
+
+**Deliverables**
+- `child_employment_memo.md` — 10-section compliance memorandum
+- `child_payroll_schedule.xlsx` — 6-sheet workbook with 54 live formula cells and a `Sources & Assumptions` sheet
+- `output/answer.md` — the complete analysis
+
+**Key conclusions (all planning estimates)**
+- **Reasonable wage: $2,880** — median comparable ($18) × 160 documented hours. The owner's $8,000 budget implies $50/hour (~2.8× market), which is unreasonable for entry-level tagging/organization work and is not used.
+- **Payroll taxes:** FICA (Social Security + Medicare) **exempt** — child under 18 in a parent's sole proprietorship; FUTA **exempt** — child under 21; federal income-tax withholding and Form W-2 **still required**. Total federal payroll tax remitted = $0.
+- **Arjun's income tax:** Standard deduction = $3,330 (greater of $1,350 or $2,880+$450, capped at $16,100) exceeds $2,880 wages → taxable income $0, federal income tax $0. He can likely claim exempt on Form W-4.
+- **Roth IRA capacity: $2,880** — earned income is below the 2026 $7,500 statutory limit (IRS IR-2025-111) and MAGI is far below the $153,000 phase-out, so full wages can be contributed.
+
+**Documentation-first plan** establishes the job description, rate-support memorandum, child-labor clearance, W-4, payroll-provider exemption setup, contemporaneous timesheets, payment trail, W-2, Schedule C deduction, and Roth IRA custodian confirmation **before/with** paying wages.
+
+**Evidence gaps flagged** (9 items): state child-labor clearance, payroll-provider configuration, actual hours paid, comparable sources, Roth custodian minor-account eligibility, 2026 limit confirmation, tax-adviser review, state payroll/income tax, and later-law changes.
+
+I verified the workbook formulas by recalculating with LibreOffice headless — all values compute correctly (wages $2,880; taxable income $0; tax $0; payroll tax $0; Roth capacity $2,880).

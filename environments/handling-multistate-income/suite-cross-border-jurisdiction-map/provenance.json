@@ -1,0 +1,41 @@
+{
+  "skill": "handling-multistate-income",
+  "case_id": "suite-cross-border-jurisdiction-map",
+  "fit": "multi-jurisdiction process calibration",
+  "import_mode": "suite-text-mirror",
+  "source_repo": "knowledge-work-demo-suite",
+  "source_remote": "https://github.com/OpulentiaAI/knowledge-work-demo-suite.git",
+  "source_commit": "3d8997b493c0b28dd11bf61c352959fef4baee74",
+  "source_task": "tasks/010-harvey-cross-border-tax",
+  "upstream_id": "tax/draft-cross-border-acquisition-tax-memo",
+  "dataset": "Harvey Legal Agent Benchmark",
+  "source_files": {
+    "environment/source_docs/country-by-country-report-fy2022-and-fy2023.docx": "a4102b88d108e9ec248569ab8ea9bff6d23d4a035b105e1232713f73dd7cb39b",
+    "environment/source_docs/dac6-analysis-memo-internal-draft-incomplete.docx": "bfae321a6e85342a6880751b5008c5935fbebef2aa81679531ea36fc48ff4567",
+    "environment/source_docs/draft-share-purchase-agreement-spa.docx": "400a9b321dad6c2df631ec01a74ae04c49c00f7022e157b8a55680393974e1f0",
+    "environment/source_docs/due-diligence-tax-report-ernst-young.docx": "d2c1e3a0e8a0f611442837592f74ecea66a9e39e7e6193ceff649e96e0d5d01a",
+    "environment/source_docs/dutch-local-tax-opinion.docx": "c63b485ae75e4952efe89e8c300791ec326b04cdccfa43f2d0ead62b610d18e4",
+    "environment/source_docs/financial-model-tax-analysis-tab.docx": "b1b617578efc47ff49ff132d90c697237d0f8d76f81e3895f5f49c74bb715d0e",
+    "environment/source_docs/financial-model-transaction-overview-tab.docx": "98a61a6655e2010b9828c44568c82eb49f8d4f04b8da544e97f280dfd35fa31e",
+    "environment/source_docs/financial-model-transfer-pricing-tab.docx": "562c2948ef7d74020a17c77e69b563103804d67993ea90bac678b9ce28183343",
+    "environment/source_docs/german-local-tax-opinion.docx": "9fb0e2474b28f3a021212c186ded049aacbc2d6d4e107f9c55cd4752e1301570",
+    "environment/source_docs/group-corporate-structure-chart-pre-acquisition-narrative-description.docx": "551b6fa85a6c727ca6b08187ed7c53fd571462d38ce43ca3788008c61b1eb10d",
+    "environment/source_docs/hargrove-lund-fee-estimate-and-engagement-letter.docx": "3648cd5857924cbc767d21237a0c943145f158ac8117df1bcf137490ad58089e",
+    "environment/source_docs/intercompany-loan-agreement-nordenvik-holding-gmbh-to-nordenvik-group-ab.docx": "aa0bcf4a6f116b7c1b50c94963081df348c847115ac3d045dbf91ac3befd7481",
+    "environment/source_docs/ip-assignment-agreements-nordenvik-ab-to-nordenvik-bv.docx": "1d8e3543691d9d0231ea655397cc46518007765b8ed23dce4031107b1ebcf3ab",
+    "environment/source_docs/master-file-transfer-pricing.docx": "6a5a806af11f03a75888bebf2ac4c4f142b9e25c6e5b67c407580b3b80f16c95",
+    "environment/source_docs/nordenvik-group-ab-consolidated-financial-statements-fy2023.docx": "29826b50896a6d7deb7126fa10861c7e84b9f5df29fefded5192580fbe9dfa5a",
+    "environment/source_docs/post-close-integration-plan-tax-section-extract.docx": "0361bec85217dd15a788840a2df02e7db12f89d22918ced1ae269065ae454653",
+    "environment/source_docs/proposed-acquisition-structure-chart-post-acquisition-narrative-description.docx": "8a44d7bef25699890586d59e09a0742a9892af1a0176bb69ec02d535ea7b5b56",
+    "environment/source_docs/representations-warranties-insurance-rwi-coverage-binder.docx": "7c2d141b2329c8147cc073322cb678c3145ac76c88c326874c318aed5cac3d8a",
+    "environment/source_docs/singapore-local-tax-opinion.docx": "b35531a5b71159b01f33842aeb3faa0ec5c88e24bda6a6f55b0fe9fbd8531c9a",
+    "environment/source_docs/swedish-local-tax-opinion.docx": "8f6f27d5cff86262f6697a8af8631801f13c91487225b849ec0c361cf0133363",
+    "environment/source_docs/term-sheet-acquisition-financing.docx": "8cafd946ae08ad671eb76d19920f6cbd687e6e5a29e3b4f4c87276671f2b4278",
+    "environment/source_docs/updated-transfer-pricing-study-kpmg.docx": "c877e6849fbff5e2567de02aa20821912541696f9e79a5f6fadbc2f4c03f7639"
+  },
+  "hidden_from_agent": [
+    "tests/rubric.json",
+    "tests/grader_spec.json",
+    "solution/reference_answer.md"
+  ]
+}

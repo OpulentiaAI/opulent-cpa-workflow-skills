@@ -1,0 +1,22 @@
+[
+  {
+    "score": 20,
+    "criterion": "Preserves all five dated Chicago listing observations, normalizes the Peerspace rate to $288, and calculates the $385 median."
+  },
+  {
+    "score": 20,
+    "criterion": "Rejects the unsupported $1,800 rate, calculates total modeled rent as $5,390 for exactly 14 days, and includes a formula-driven annual day-count control."
+  },
+  {
+    "score": 20,
+    "criterion": "Correctly states the owner-side section 280A(g) income exclusion and rental-deduction prohibition under the facts."
+  },
+  {
+    "score": 20,
+    "criterion": "Keeps the company's section 162 analysis separate and conditional on business purpose and reasonable, substantiated related-party pricing, while explaining asking-rate and comparability limitations."
+  },
+  {
+    "score": 20,
+    "criterion": "Creates an auditable event log and implementation checklist covering agreement, approval, invoices, payments, agendas, attendees, refreshed listing evidence, adjustments, and Chicago/state/local review."
+  }
+]

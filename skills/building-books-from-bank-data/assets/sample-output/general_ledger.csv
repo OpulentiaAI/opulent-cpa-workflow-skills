@@ -1,0 +1,13 @@
+entry_id,txn_id,date,account_code,account_name,debit,credit,memo,source_row,status
+J001A,B001,2025-01-02,1000,Cash,10000.00,0.00,Owner funding,2,posted
+J001B,B001,2025-01-02,3000,Owner Equity,0.00,10000.00,Owner funding,2,posted
+J002A,B002,2025-01-05,1000,Cash,3250.00,0.00,Sales deposit,3,posted
+J002B,B002,2025-01-05,4000,Sales Revenue,0.00,3250.00,Sales deposit,3,posted
+J003A,B003,2025-01-06,1500,Equipment,2400.00,0.00,Refrigeration equipment,4,posted
+J003B,B003,2025-01-06,1000,Cash,0.00,2400.00,Refrigeration equipment,4,posted
+J004A,B004,2025-01-07,6100,Rent Expense,1200.00,0.00,Store rent,5,posted
+J004B,B004,2025-01-07,1000,Cash,0.00,1200.00,Store rent,5,posted
+J005A,B005,2025-01-08,1200,Inventory,1800.00,0.00,Wholesale inventory,6,posted
+J005B,B005,2025-01-08,1000,Cash,0.00,1800.00,Wholesale inventory,6,posted
+J006A,B006,2025-01-09,1999,Suspense,500.00,0.00,Unknown ACH payment,7,exception
+J006B,B006,2025-01-09,1000,Cash,0.00,500.00,Unknown ACH payment,7,exception

@@ -1,0 +1,5 @@
+income_id,state,source_type,gross_amount,allocated_amount,allocation_basis,status,source_url
+I001,IL,1099 service income,120000.00,90000.00,150 of 200 service days,CPA review,https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-nr-instr.html
+I001,AZ,1099 service income,120000.00,30000.00,50 of 200 service days,CPA review,https://azdor.gov/forms/individual/nonresident-personal-income-tax-form-calculating
+I002,IL,W-2 wages,450000.00,450000.00,W-2 Illinois wages,Supported by form,https://tax.illinois.gov/
+I003,IL,1099 service income,300000.00,300000.00,180 of 180 service days,CPA review,https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-nr-instr.html
