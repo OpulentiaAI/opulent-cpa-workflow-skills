@@ -55,6 +55,13 @@ The Letta, Matt Pocock, Harbor, and OSWorld repositories use sparse checkouts be
 
 ## Clone and verify the repository
 
+APEX Accounting stores fourteen files through Git LFS. Install Git LFS before cloning the repository:
+
+```bash
+brew install git-lfs
+git lfs install
+```
+
 Clone with the pinned source repositories:
 
 ```bash

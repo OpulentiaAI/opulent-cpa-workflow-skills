@@ -53,7 +53,8 @@ def main():
     git_env["PATH"] = f"{lfs_dir}:{git_env.get('PATH', '')}"
     for name, expected in locks.items():
         repo = ROOT / "upstream" / name
-        if not (repo / ".git").is_dir():
+        git_marker = repo / ".git"
+        if not (git_marker.is_dir() or git_marker.is_file()):
             raise RuntimeError(f"missing Git checkout: {name}")
         if run(["git", "rev-parse", "HEAD"], repo, git_env) != expected["commit"]:
             raise RuntimeError(f"commit mismatch: {name}")
